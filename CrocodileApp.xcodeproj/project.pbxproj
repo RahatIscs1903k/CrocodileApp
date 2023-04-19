@@ -13,6 +13,10 @@
 		45807A8E29EC284E00E0B999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45807A8C29EC284E00E0B999 /* Main.storyboard */; };
 		45807A9029EC285000E0B999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45807A8F29EC285000E0B999 /* Assets.xcassets */; };
 		45807A9329EC285000E0B999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45807A9129EC285000E0B999 /* LaunchScreen.storyboard */; };
+		A22B95FC29F0411400A3E2D6 /* CorrectViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22B95FB29F0411400A3E2D6 /* CorrectViewController.storyboard */; };
+		A22B95FE29F0414300A3E2D6 /* WrongViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22B95FD29F0414300A3E2D6 /* WrongViewController.storyboard */; };
+		A22B960029F0415000A3E2D6 /* GameResultViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22B95FF29F0415000A3E2D6 /* GameResultViewController.storyboard */; };
+		A22B960229F04BEE00A3E2D6 /* Cookie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A22B960129F04BEE00A3E2D6 /* Cookie-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		45807A8F29EC285000E0B999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45807A9229EC285000E0B999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45807A9429EC285000E0B999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22B95FB29F0411400A3E2D6 /* CorrectViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CorrectViewController.storyboard; sourceTree = "<group>"; };
+		A22B95FD29F0414300A3E2D6 /* WrongViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WrongViewController.storyboard; sourceTree = "<group>"; };
+		A22B95FF29F0415000A3E2D6 /* GameResultViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameResultViewController.storyboard; sourceTree = "<group>"; };
+		A22B960129F04BEE00A3E2D6 /* Cookie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cookie-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,12 @@
 				45807A8829EC284E00E0B999 /* SceneDelegate.swift */,
 				45807A8A29EC284E00E0B999 /* ViewController.swift */,
 				45807A8C29EC284E00E0B999 /* Main.storyboard */,
+				A22B95FB29F0411400A3E2D6 /* CorrectViewController.storyboard */,
+				A22B95FD29F0414300A3E2D6 /* WrongViewController.storyboard */,
+				A22B95FF29F0415000A3E2D6 /* GameResultViewController.storyboard */,
 				45807A8F29EC285000E0B999 /* Assets.xcassets */,
 				45807A9129EC285000E0B999 /* LaunchScreen.storyboard */,
+				A22B960129F04BEE00A3E2D6 /* Cookie-Regular.ttf */,
 				45807A9429EC285000E0B999 /* Info.plist */,
 			);
 			path = CrocodileApp;
@@ -125,8 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22B95FE29F0414300A3E2D6 /* WrongViewController.storyboard in Resources */,
+				A22B95FC29F0411400A3E2D6 /* CorrectViewController.storyboard in Resources */,
+				A22B960229F04BEE00A3E2D6 /* Cookie-Regular.ttf in Resources */,
 				45807A9329EC285000E0B999 /* LaunchScreen.storyboard in Resources */,
 				45807A9029EC285000E0B999 /* Assets.xcassets in Resources */,
+				A22B960029F0415000A3E2D6 /* GameResultViewController.storyboard in Resources */,
 				45807A8E29EC284E00E0B999 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
