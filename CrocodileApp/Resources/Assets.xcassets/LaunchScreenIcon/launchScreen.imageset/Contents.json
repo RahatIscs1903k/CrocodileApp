@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "team eleven.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
