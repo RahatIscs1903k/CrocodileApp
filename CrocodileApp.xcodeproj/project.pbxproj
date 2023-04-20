@@ -17,6 +17,7 @@
 		A22B960029F0415000A3E2D6 /* GameResultViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22B95FF29F0415000A3E2D6 /* GameResultViewController.storyboard */; };
 		A22B960229F04BEE00A3E2D6 /* Cookie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A22B960129F04BEE00A3E2D6 /* Cookie-Regular.ttf */; };
 		A22C3DF229F0AAD100046192 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C3DF129F0AAD100046192 /* TeamViewController.swift */; };
+		A256088829F17DEA006E5ACB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256088729F17DEA006E5ACB /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A22B95FF29F0415000A3E2D6 /* GameResultViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameResultViewController.storyboard; sourceTree = "<group>"; };
 		A22B960129F04BEE00A3E2D6 /* Cookie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cookie-Regular.ttf"; sourceTree = "<group>"; };
 		A22C3DF129F0AAD100046192 /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		A256088729F17DEA006E5ACB /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				A22C3DF529F0AC9600046192 /* Resources */,
 				A22C3DF429F0AC2400046192 /* Views */,
 				A22C3DF629F0ACC800046192 /* Controllers */,
+				A256088929F17DFD006E5ACB /* Customs */,
 			);
 			path = CrocodileApp;
 			sourceTree = "<group>";
@@ -109,6 +112,14 @@
 				A22C3DF129F0AAD100046192 /* TeamViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A256088929F17DFD006E5ACB /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				A256088729F17DEA006E5ACB /* CustomView.swift */,
+			);
+			path = Customs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45807A8729EC284E00E0B999 /* AppDelegate.swift in Sources */,
+				A256088829F17DEA006E5ACB /* CustomView.swift in Sources */,
 				A22C3DF229F0AAD100046192 /* TeamViewController.swift in Sources */,
 				45807A8929EC284E00E0B999 /* SceneDelegate.swift in Sources */,
 			);
