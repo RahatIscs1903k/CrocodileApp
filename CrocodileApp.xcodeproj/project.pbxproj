@@ -19,6 +19,7 @@
 		A22C3DF229F0AAD100046192 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C3DF129F0AAD100046192 /* TeamViewController.swift */; };
 		A256088829F17DEA006E5ACB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256088729F17DEA006E5ACB /* CustomView.swift */; };
 		EB22EEEE29F1B98600738877 /* FirstScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB22EEED29F1B98600738877 /* FirstScreen.storyboard */; };
+		EB4E699729F1C86C00FCF233 /* RulesScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4E699629F1C86C00FCF233 /* RulesScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A22C3DF129F0AAD100046192 /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		A256088729F17DEA006E5ACB /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		EB22EEED29F1B98600738877 /* FirstScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstScreen.storyboard; sourceTree = "<group>"; };
+		EB4E699629F1C86C00FCF233 /* RulesScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RulesScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				EB22EEED29F1B98600738877 /* FirstScreen.storyboard */,
+				EB4E699629F1C86C00FCF233 /* RulesScreen.storyboard */,
 				45807A8C29EC284E00E0B999 /* TeamViewController.storyboard */,
 				A22B95FB29F0411400A3E2D6 /* CorrectViewController.storyboard */,
 				A22B95FD29F0414300A3E2D6 /* WrongViewController.storyboard */,
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4E699729F1C86C00FCF233 /* RulesScreen.storyboard in Resources */,
 				A22B95FE29F0414300A3E2D6 /* WrongViewController.storyboard in Resources */,
 				A22B95FC29F0411400A3E2D6 /* CorrectViewController.storyboard in Resources */,
 				A22B960229F04BEE00A3E2D6 /* Cookie-Regular.ttf in Resources */,
