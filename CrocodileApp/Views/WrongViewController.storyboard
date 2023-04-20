@@ -27,7 +27,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UAx-6v-aZM">
-                                <rect key="frame" x="31.5" y="84" width="351" height="96"/>
+                                <rect key="frame" x="12" y="84" width="390" height="96"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cowboy" translatesAutoresizingMaskIntoConstraints="NO" id="WvU-9f-apm" customClass="CorrectViewController">
                                         <rect key="frame" x="15" y="20" width="56" height="56"/>
@@ -43,7 +43,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="JFv-UO-Oc7">
-                                        <rect key="frame" x="287" y="8" width="60" height="80"/>
+                                        <rect key="frame" x="326" y="8" width="60" height="80"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xX6-lU-4QN">
                                                 <rect key="frame" x="0.0" y="0.0" width="60" height="55"/>
@@ -72,7 +72,6 @@
                                     <constraint firstItem="Gdv-iA-rZ9" firstAttribute="top" secondItem="UAx-6v-aZM" secondAttribute="top" constant="37" id="65H-Ia-cKB"/>
                                     <constraint firstItem="WvU-9f-apm" firstAttribute="centerY" secondItem="UAx-6v-aZM" secondAttribute="centerY" id="DXn-X8-8Y4"/>
                                     <constraint firstAttribute="height" constant="96" id="RDP-1c-JPY"/>
-                                    <constraint firstAttribute="width" constant="351" id="TKg-NM-fKl"/>
                                     <constraint firstItem="WvU-9f-apm" firstAttribute="leading" secondItem="UAx-6v-aZM" secondAttribute="leading" constant="15" id="UP0-nf-XQt"/>
                                     <constraint firstItem="Gdv-iA-rZ9" firstAttribute="leading" secondItem="WvU-9f-apm" secondAttribute="trailing" constant="34" id="Ve1-FE-lvc"/>
                                     <constraint firstItem="Gdv-iA-rZ9" firstAttribute="centerY" secondItem="UAx-6v-aZM" secondAttribute="centerY" id="VfH-lA-FcO"/>
@@ -82,10 +81,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q1c-3D-Eyn">
-                                <rect key="frame" x="31.5" y="266" width="351" height="301"/>
+                                <rect key="frame" x="12" y="266" width="390" height="301"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="812-31-dJC">
-                                        <rect key="frame" x="50.5" y="25.5" width="250" height="250"/>
+                                        <rect key="frame" x="70" y="25.5" width="250" height="250"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="УВЫ И АХ!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsm-Cs-ATg">
                                                 <rect key="frame" x="53" y="0.0" width="144" height="22"/>
@@ -156,7 +155,6 @@
                                 <constraints>
                                     <constraint firstItem="812-31-dJC" firstAttribute="centerX" secondItem="q1c-3D-Eyn" secondAttribute="centerX" id="08A-8S-fHe"/>
                                     <constraint firstItem="812-31-dJC" firstAttribute="centerY" secondItem="q1c-3D-Eyn" secondAttribute="centerY" id="Jag-JV-pso"/>
-                                    <constraint firstAttribute="width" constant="351" id="eXB-8U-OkI"/>
                                     <constraint firstAttribute="height" constant="301" id="ffh-J5-qHk"/>
                                 </constraints>
                             </view>
@@ -176,12 +174,16 @@
                         <viewLayoutGuide key="safeArea" id="ha1-4E-LJo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ha1-4E-LJo" firstAttribute="trailing" secondItem="UAx-6v-aZM" secondAttribute="trailing" constant="12" id="7VR-qF-yWs"/>
                             <constraint firstItem="8Gr-JH-VeB" firstAttribute="centerX" secondItem="vsU-is-fIL" secondAttribute="centerX" id="Brx-68-C3u"/>
                             <constraint firstItem="UAx-6v-aZM" firstAttribute="top" secondItem="vsU-is-fIL" secondAttribute="top" constant="84" id="Dyg-la-Ehz"/>
+                            <constraint firstItem="q1c-3D-Eyn" firstAttribute="leading" secondItem="ha1-4E-LJo" secondAttribute="leading" constant="12" id="HZq-Ge-ihM"/>
                             <constraint firstItem="UAx-6v-aZM" firstAttribute="centerX" secondItem="vsU-is-fIL" secondAttribute="centerX" id="VR2-VS-eUU"/>
                             <constraint firstItem="q1c-3D-Eyn" firstAttribute="top" secondItem="UAx-6v-aZM" secondAttribute="bottom" constant="86" id="bHO-dC-RYN"/>
                             <constraint firstAttribute="bottom" secondItem="8Gr-JH-VeB" secondAttribute="bottom" constant="45" id="eEl-tF-tff"/>
+                            <constraint firstItem="ha1-4E-LJo" firstAttribute="trailing" secondItem="q1c-3D-Eyn" secondAttribute="trailing" constant="12" id="eMp-j3-mK2"/>
                             <constraint firstItem="q1c-3D-Eyn" firstAttribute="centerX" secondItem="vsU-is-fIL" secondAttribute="centerX" id="et1-1l-r4z"/>
+                            <constraint firstItem="UAx-6v-aZM" firstAttribute="leading" secondItem="ha1-4E-LJo" secondAttribute="leading" constant="12" id="wo5-iV-EEg"/>
                         </constraints>
                     </view>
                 </viewController>
