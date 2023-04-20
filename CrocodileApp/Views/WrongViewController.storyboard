@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -26,16 +26,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UAx-6v-aZM">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UAx-6v-aZM" customClass="CustomView" customModule="CrocodileApp" customModuleProvider="target">
                                 <rect key="frame" x="12" y="84" width="390" height="96"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cowboy" translatesAutoresizingMaskIntoConstraints="NO" id="WvU-9f-apm" customClass="CorrectViewController">
-                                        <rect key="frame" x="15" y="20" width="56" height="56"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="56" id="MOh-9U-yaY"/>
-                                            <constraint firstAttribute="width" constant="56" id="aJS-Qc-3DO"/>
-                                        </constraints>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ковбои" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdv-iA-rZ9">
                                         <rect key="frame" x="105" y="37" width="58.5" height="22"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -66,21 +59,61 @@
                                             <constraint firstAttribute="width" constant="60" id="hdh-Fa-BUp"/>
                                         </constraints>
                                     </stackView>
+                                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qnQ-Hc-5Gm" customClass="CustomView" customModule="CrocodileApp" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="20" width="56" height="56"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤠" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcS-Tl-eap">
+                                                <rect key="frame" x="5.5" y="4" width="45" height="48"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.54541879130000004" green="0.72542722900000001" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="56" id="2hK-5V-zAY"/>
+                                            <constraint firstItem="rcS-Tl-eap" firstAttribute="centerY" secondItem="qnQ-Hc-5Gm" secondAttribute="centerY" id="cmb-KT-ByG"/>
+                                            <constraint firstAttribute="height" constant="56" id="dKp-w4-sRw"/>
+                                            <constraint firstItem="rcS-Tl-eap" firstAttribute="centerX" secondItem="qnQ-Hc-5Gm" secondAttribute="centerX" id="hCz-QZ-GNh"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="Gdv-iA-rZ9" firstAttribute="top" secondItem="UAx-6v-aZM" secondAttribute="top" constant="37" id="65H-Ia-cKB"/>
-                                    <constraint firstItem="WvU-9f-apm" firstAttribute="centerY" secondItem="UAx-6v-aZM" secondAttribute="centerY" id="DXn-X8-8Y4"/>
                                     <constraint firstAttribute="height" constant="96" id="RDP-1c-JPY"/>
-                                    <constraint firstItem="WvU-9f-apm" firstAttribute="leading" secondItem="UAx-6v-aZM" secondAttribute="leading" constant="15" id="UP0-nf-XQt"/>
-                                    <constraint firstItem="Gdv-iA-rZ9" firstAttribute="leading" secondItem="WvU-9f-apm" secondAttribute="trailing" constant="34" id="Ve1-FE-lvc"/>
                                     <constraint firstItem="Gdv-iA-rZ9" firstAttribute="centerY" secondItem="UAx-6v-aZM" secondAttribute="centerY" id="VfH-lA-FcO"/>
                                     <constraint firstItem="JFv-UO-Oc7" firstAttribute="centerY" secondItem="UAx-6v-aZM" secondAttribute="centerY" id="cL0-Kh-gaR"/>
                                     <constraint firstAttribute="bottom" secondItem="Gdv-iA-rZ9" secondAttribute="bottom" constant="37" id="f8S-4I-ysa"/>
+                                    <constraint firstItem="qnQ-Hc-5Gm" firstAttribute="leading" secondItem="UAx-6v-aZM" secondAttribute="leading" constant="15" id="gsN-Fx-FGj"/>
+                                    <constraint firstItem="qnQ-Hc-5Gm" firstAttribute="centerY" secondItem="UAx-6v-aZM" secondAttribute="centerY" id="jR4-oL-Tn8"/>
                                     <constraint firstAttribute="trailing" secondItem="JFv-UO-Oc7" secondAttribute="trailing" constant="4" id="jg9-CY-lNI"/>
+                                    <constraint firstItem="Gdv-iA-rZ9" firstAttribute="leading" secondItem="qnQ-Hc-5Gm" secondAttribute="trailing" constant="34" id="l97-T2-SwY"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" systemColor="systemGray3Color"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q1c-3D-Eyn">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q1c-3D-Eyn" customClass="CustomView" customModule="CrocodileApp" customModuleProvider="target">
                                 <rect key="frame" x="12" y="266" width="390" height="301"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="812-31-dJC">
@@ -157,32 +190,67 @@
                                     <constraint firstItem="812-31-dJC" firstAttribute="centerY" secondItem="q1c-3D-Eyn" secondAttribute="centerY" id="Jag-JV-pso"/>
                                     <constraint firstAttribute="height" constant="301" id="ffh-J5-qHk"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Gr-JH-VeB">
-                                <rect key="frame" x="31.5" y="791" width="351" height="60"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S42-SL-4gG" customClass="CustomView" customModule="CrocodileApp" customModuleProvider="target">
+                                <rect key="frame" x="31.5" y="790" width="351" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Gr-JH-VeB">
+                                        <rect key="frame" x="0.0" y="0.0" width="351" height="60"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Передать ход">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                            <color key="baseBackgroundColor" red="0.4534765482" green="0.65650480990000004" blue="0.187305212" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="HHd-6Y-VEu" kind="show" id="QFZ-Ju-ZjX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="61P-nf-puJ"/>
-                                    <constraint firstAttribute="width" constant="351" id="8Pq-Bb-TFx"/>
+                                    <constraint firstAttribute="bottom" secondItem="8Gr-JH-VeB" secondAttribute="bottom" id="AWR-pn-pPj"/>
+                                    <constraint firstAttribute="height" constant="60" id="N2k-jO-bsD"/>
+                                    <constraint firstAttribute="width" constant="351" id="Rgh-lZ-kOR"/>
+                                    <constraint firstItem="8Gr-JH-VeB" firstAttribute="top" secondItem="S42-SL-4gG" secondAttribute="top" id="Rmt-HT-BlZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="8Gr-JH-VeB" secondAttribute="trailing" id="WLi-92-xZj"/>
+                                    <constraint firstItem="8Gr-JH-VeB" firstAttribute="leading" secondItem="S42-SL-4gG" secondAttribute="leading" id="h0u-hk-gr4"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Передать ход">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
-                                    <color key="baseBackgroundColor" red="0.4534765482" green="0.65650480990000004" blue="0.187305212" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ha1-4E-LJo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="S42-SL-4gG" secondAttribute="bottom" constant="46" id="1x5-qJ-Qvv"/>
                             <constraint firstItem="ha1-4E-LJo" firstAttribute="trailing" secondItem="UAx-6v-aZM" secondAttribute="trailing" constant="12" id="7VR-qF-yWs"/>
-                            <constraint firstItem="8Gr-JH-VeB" firstAttribute="centerX" secondItem="vsU-is-fIL" secondAttribute="centerX" id="Brx-68-C3u"/>
                             <constraint firstItem="UAx-6v-aZM" firstAttribute="top" secondItem="vsU-is-fIL" secondAttribute="top" constant="84" id="Dyg-la-Ehz"/>
                             <constraint firstItem="q1c-3D-Eyn" firstAttribute="leading" secondItem="ha1-4E-LJo" secondAttribute="leading" constant="12" id="HZq-Ge-ihM"/>
                             <constraint firstItem="UAx-6v-aZM" firstAttribute="centerX" secondItem="vsU-is-fIL" secondAttribute="centerX" id="VR2-VS-eUU"/>
                             <constraint firstItem="q1c-3D-Eyn" firstAttribute="top" secondItem="UAx-6v-aZM" secondAttribute="bottom" constant="86" id="bHO-dC-RYN"/>
-                            <constraint firstAttribute="bottom" secondItem="8Gr-JH-VeB" secondAttribute="bottom" constant="45" id="eEl-tF-tff"/>
                             <constraint firstItem="ha1-4E-LJo" firstAttribute="trailing" secondItem="q1c-3D-Eyn" secondAttribute="trailing" constant="12" id="eMp-j3-mK2"/>
                             <constraint firstItem="q1c-3D-Eyn" firstAttribute="centerX" secondItem="vsU-is-fIL" secondAttribute="centerX" id="et1-1l-r4z"/>
+                            <constraint firstItem="S42-SL-4gG" firstAttribute="centerX" secondItem="vsU-is-fIL" secondAttribute="centerX" id="k9U-oZ-N0h"/>
                             <constraint firstItem="UAx-6v-aZM" firstAttribute="leading" secondItem="ha1-4E-LJo" secondAttribute="leading" constant="12" id="wo5-iV-EEg"/>
                         </constraints>
                     </view>
@@ -191,13 +259,25 @@
             </objects>
             <point key="canvasLocation" x="139" y="139"/>
         </scene>
+        <!--GameResultViewController-->
+        <scene sceneID="aQp-ux-fSD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="GameResultViewController" id="HHd-6Y-VEu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="2vt-1g-ZcC"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0sV-9O-60f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="727" y="139"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="Cowboy" width="56" height="56"/>
         <image name="Ellipse 2" width="85" height="82"/>
         <image name="background" width="375" height="812"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
