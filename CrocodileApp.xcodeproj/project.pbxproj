@@ -18,6 +18,7 @@
 		A22B960229F04BEE00A3E2D6 /* Cookie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A22B960129F04BEE00A3E2D6 /* Cookie-Regular.ttf */; };
 		A22C3DF229F0AAD100046192 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C3DF129F0AAD100046192 /* TeamViewController.swift */; };
 		A256088829F17DEA006E5ACB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256088729F17DEA006E5ACB /* CustomView.swift */; };
+		EB22EEEE29F1B98600738877 /* FirstScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB22EEED29F1B98600738877 /* FirstScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A22B960129F04BEE00A3E2D6 /* Cookie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cookie-Regular.ttf"; sourceTree = "<group>"; };
 		A22C3DF129F0AAD100046192 /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		A256088729F17DEA006E5ACB /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		EB22EEED29F1B98600738877 /* FirstScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		A22C3DF429F0AC2400046192 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EB22EEED29F1B98600738877 /* FirstScreen.storyboard */,
 				45807A8C29EC284E00E0B999 /* TeamViewController.storyboard */,
 				A22B95FB29F0411400A3E2D6 /* CorrectViewController.storyboard */,
 				A22B95FD29F0414300A3E2D6 /* WrongViewController.storyboard */,
@@ -185,6 +188,7 @@
 				A22B960229F04BEE00A3E2D6 /* Cookie-Regular.ttf in Resources */,
 				45807A9329EC285000E0B999 /* LaunchScreen.storyboard in Resources */,
 				45807A9029EC285000E0B999 /* Assets.xcassets in Resources */,
+				EB22EEEE29F1B98600738877 /* FirstScreen.storyboard in Resources */,
 				A22B960029F0415000A3E2D6 /* GameResultViewController.storyboard in Resources */,
 				45807A8E29EC284E00E0B999 /* TeamViewController.storyboard in Resources */,
 			);
@@ -347,7 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 469HWU6NKT;
+				DEVELOPMENT_TEAM = 46DJ9V93JA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CrocodileApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -376,7 +380,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 469HWU6NKT;
+				DEVELOPMENT_TEAM = 46DJ9V93JA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CrocodileApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

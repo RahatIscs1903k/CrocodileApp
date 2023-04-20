@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First ScreenVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="FirstScreenVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="q9V-3y-g2n">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Grass" translatesAutoresizingMaskIntoConstraints="NO" id="diC-lL-kdA">
+                                <rect key="frame" x="298" y="782" width="95" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="nAA-VZ-0HS"/>
+                                    <constraint firstAttribute="width" constant="95" id="qZN-wX-39M"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e4g-WU-e3y" customClass="CustomView" customModule="CrocodileApp" customModuleProvider="target">
+                                <rect key="frame" x="82" y="664" width="229" height="63"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNM-Sm-Bor">
+                                        <rect key="frame" x="0.0" y="0.0" width="229" height="63"/>
+                                        <color key="backgroundColor" red="0.49803921579999999" green="0.64705884459999996" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Правила">
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="hNM-Sm-Bor" secondAttribute="trailing" id="JPu-GX-jHZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="hNM-Sm-Bor" secondAttribute="bottom" id="Ngf-Mm-Eff"/>
+                                    <constraint firstItem="hNM-Sm-Bor" firstAttribute="leading" secondItem="e4g-WU-e3y" secondAttribute="leading" id="W7C-re-GTM"/>
+                                    <constraint firstItem="hNM-Sm-Bor" firstAttribute="top" secondItem="e4g-WU-e3y" secondAttribute="top" id="gL2-8E-KX2"/>
+                                    <constraint firstAttribute="height" constant="63" id="gte-0q-1mn"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crocodile" translatesAutoresizingMaskIntoConstraints="NO" id="euG-Kt-Muv">
+                                <rect key="frame" x="53" y="172" width="287" height="322"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="322" id="eg2-Ay-45W"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Grass" translatesAutoresizingMaskIntoConstraints="NO" id="z3P-PA-clB">
+                                <rect key="frame" x="0.0" y="782" width="95" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="7QL-3Q-gRB"/>
+                                    <constraint firstAttribute="width" constant="95" id="pha-4L-eFI"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p2t-Vm-k3z" customClass="CustomView" customModule="CrocodileApp" customModuleProvider="target">
+                                <rect key="frame" x="50" y="542" width="293" height="83"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fa-AE-mH0">
+                                        <rect key="frame" x="0.0" y="0.0" width="293" height="83"/>
+                                        <color key="backgroundColor" red="0.49803921579999999" green="0.64705884459999996" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Старт игры">
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="2Fa-AE-mH0" secondAttribute="trailing" id="F9N-89-hLZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="2Fa-AE-mH0" secondAttribute="bottom" id="M12-ia-KMP"/>
+                                    <constraint firstItem="2Fa-AE-mH0" firstAttribute="top" secondItem="p2t-Vm-k3z" secondAttribute="top" id="RcN-sn-DCC"/>
+                                    <constraint firstAttribute="height" constant="83" id="XDJ-Aw-2Lh"/>
+                                    <constraint firstItem="2Fa-AE-mH0" firstAttribute="leading" secondItem="p2t-Vm-k3z" secondAttribute="leading" id="yUc-pU-ILR"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="z3P-PA-clB" secondAttribute="bottom" id="2oI-hV-Nha"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="euG-Kt-Muv" secondAttribute="trailing" constant="53" id="3qk-98-6UI"/>
+                            <constraint firstItem="euG-Kt-Muv" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="172" id="Dpd-g1-eYT"/>
+                            <constraint firstItem="q9V-3y-g2n" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="FQu-oD-ZhV"/>
+                            <constraint firstItem="e4g-WU-e3y" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="82" id="FlP-KA-i46"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="p2t-Vm-k3z" secondAttribute="trailing" constant="50" id="Fzm-8m-JXy"/>
+                            <constraint firstItem="z3P-PA-clB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Jwd-dR-7z5"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="e4g-WU-e3y" secondAttribute="trailing" constant="82" id="Sfa-hb-SMN"/>
+                            <constraint firstAttribute="bottom" secondItem="diC-lL-kdA" secondAttribute="bottom" id="Y9A-SJ-WJB"/>
+                            <constraint firstItem="euG-Kt-Muv" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="53" id="YkZ-Ck-6Cp"/>
+                            <constraint firstItem="p2t-Vm-k3z" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="bYE-zd-ypU"/>
+                            <constraint firstItem="q9V-3y-g2n" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="cu9-3f-njD"/>
+                            <constraint firstItem="diC-lL-kdA" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="gtw-U1-oxR"/>
+                            <constraint firstItem="e4g-WU-e3y" firstAttribute="top" secondItem="p2t-Vm-k3z" secondAttribute="bottom" constant="39" id="onZ-87-cRT"/>
+                            <constraint firstAttribute="bottom" secondItem="q9V-3y-g2n" secondAttribute="bottom" id="plP-kG-f16"/>
+                            <constraint firstItem="q9V-3y-g2n" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailing" id="yDk-Vb-Ube"/>
+                            <constraint firstItem="p2t-Vm-k3z" firstAttribute="top" secondItem="euG-Kt-Muv" secondAttribute="bottom" constant="48" id="zLr-gl-qK5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Crocodile" width="268" height="322"/>
+        <image name="Grass" width="92" height="70"/>
+        <image name="background" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
