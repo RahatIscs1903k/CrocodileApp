@@ -65,6 +65,7 @@
                                     <constraint firstItem="Pbz-iM-nhm" firstAttribute="leading" secondItem="ZRc-m7-av0" secondAttribute="leading" constant="17" id="1XQ-QP-rh0"/>
                                     <constraint firstAttribute="height" constant="96" id="AMM-MW-gRg"/>
                                     <constraint firstItem="x3N-Qj-hmt" firstAttribute="centerY" secondItem="ZRc-m7-av0" secondAttribute="centerY" id="Dyt-fV-PER"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="x3N-Qj-hmt" secondAttribute="trailing" constant="20" symbolic="YES" id="Gjj-9c-7vw"/>
                                     <constraint firstItem="x3N-Qj-hmt" firstAttribute="leading" secondItem="Pbz-iM-nhm" secondAttribute="trailing" constant="56" id="nQD-AK-Ovw"/>
                                     <constraint firstItem="Pbz-iM-nhm" firstAttribute="centerY" secondItem="ZRc-m7-av0" secondAttribute="centerY" id="wxk-0P-WEY"/>
                                 </constraints>
@@ -72,7 +73,7 @@
                             <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxK-Fb-80P">
                                 <rect key="frame" x="33.5" y="774" width="347" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="347" id="KsS-q1-g7g"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="347" id="KsS-q1-g7g"/>
                                     <constraint firstAttribute="height" constant="60" id="a8g-il-78W"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -119,6 +120,7 @@
                                     <constraint firstItem="1z9-IR-yIB" firstAttribute="leading" secondItem="XfY-DS-MP5" secondAttribute="leading" constant="17" id="by1-dD-gSC"/>
                                     <constraint firstAttribute="height" constant="96" id="ftd-ox-1xB"/>
                                     <constraint firstItem="8jq-nV-kyI" firstAttribute="centerY" secondItem="XfY-DS-MP5" secondAttribute="centerY" id="fvC-BO-lvf"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8jq-nV-kyI" secondAttribute="trailing" constant="20" symbolic="YES" id="kWE-Tr-cFK"/>
                                 </constraints>
                             </view>
                         </subviews>
