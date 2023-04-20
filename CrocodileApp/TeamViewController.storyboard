@@ -57,7 +57,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" red="0.54541879129581516" green="0.72542722899706757" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" red="0.94699627159999999" green="0.72147113080000003" blue="0.7333287597" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="bottom" secondItem="UmB-Ek-ESW" secondAttribute="bottom" id="0aN-qz-Tt3"/>
                                                             <constraint firstItem="UmB-Ek-ESW" firstAttribute="leading" secondItem="OXM-O5-czT" secondAttribute="leading" id="EgJ-OM-8ph"/>
@@ -170,6 +170,10 @@
                     <connections>
                         <outlet property="circle1" destination="OXM-O5-czT" id="dlt-Vb-LBG"/>
                         <outlet property="circle2" destination="pdA-At-zcc" id="E2G-xX-bT5"/>
+                        <outlet property="emoji1" destination="UmB-Ek-ESW" id="6w1-MS-TyE"/>
+                        <outlet property="emoji2" destination="uCA-ac-ZYT" id="VHP-7p-HCo"/>
+                        <outlet property="teamName1" destination="q0b-5h-FeY" id="9P0-ZN-oYe"/>
+                        <outlet property="teamName2" destination="KN5-VN-t6b" id="KJg-pQ-C8d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
