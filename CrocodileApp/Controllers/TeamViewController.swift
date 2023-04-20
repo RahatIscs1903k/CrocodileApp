@@ -30,16 +30,53 @@ class TeamViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let teams = Array<Team>()
         
-        let teamCowboys = Team(teamBackgroundColor: UIColor.green, teamEmoji: "🤠 ", teamName: "Ковбои")
+        let teams = createTeamPool()
         
+        guard let firstTeam = teams.randomElement() else { return print("произошла ошибка")}
         
-        circle1.layer.cornerRadius = 28
-        circle2.layer.cornerRadius = 28
-        circle1.backgroundColor = teamCowboys.teamBackgroundColor
-        emoji1.text = teamCowboys.teamEmoji
-        teamName1.text = teamCowboys.teamName
+        guard var secondTeam = teams.randomElement() else { return print("произошла ошибка")}
+        
+        while firstTeam.teamName == secondTeam.teamName {
+            secondTeam = teams.randomElement() ?? Team(teamBackgroundColor: UIColor.black, teamEmoji: "💩", teamName: "Разработчики")
+        }
+        
+        generateTeamPicture(circle: circle1, emoji: emoji1, teamName: teamName1, team: firstTeam)
+        generateTeamPicture(circle: circle2, emoji: emoji2, teamName: teamName2, team: secondTeam)
+    }
+    
+    func createTeamPool() -> Array<Team> {
+        var teams = Array<Team>()
+        
+        let teamCowboys = Team(teamBackgroundColor: UIColor.green, teamEmoji: "🤠", teamName: "Ковбои")
+        
+        let teamSkinny = Team(teamBackgroundColor: UIColor.purple, teamEmoji: "🍔", teamName: "Стройняшки")
+        
+        let teamDota = Team(teamBackgroundColor: UIColor.green, teamEmoji: "🦞", teamName: "Дотеры")
+        
+        let teamHandsome = Team(teamBackgroundColor: UIColor.green, teamEmoji: "🐊", teamName: "Красавчики")
+        
+        let teamFoxes = Team(teamBackgroundColor: UIColor.green, teamEmoji: "🦊", teamName: "Лисички")
+        
+        let teamGossipGirls = Team(teamBackgroundColor: UIColor.green, teamEmoji: "🐀", teamName: "Сплетницы")
+        
+        teams.append(teamCowboys)
+        teams.append(teamSkinny)
+        teams.append(teamDota)
+        teams.append(teamHandsome)
+        teams.append(teamFoxes)
+        teams.append(teamGossipGirls)
+        
+        return teams
+    }
+    
+    func generateTeamPicture(circle: UIView, emoji: UILabel, teamName: UILabel, team: Team) {
+        
+        let CORNER_RADIUS : CGFloat = 28
+        circle.layer.cornerRadius = CORNER_RADIUS
+        circle.backgroundColor = team.teamBackgroundColor
+        emoji.text = team.teamEmoji
+        teamName.text = team.teamName
     }
 }
 
