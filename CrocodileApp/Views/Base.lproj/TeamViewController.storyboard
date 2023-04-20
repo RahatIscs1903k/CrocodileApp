@@ -153,7 +153,7 @@
                         <outlet property="emoji1" destination="gcL-h9-cGh" id="wVv-3C-TIw"/>
                         <outlet property="emoji2" destination="M0g-Td-yge" id="3ep-2i-WJo"/>
                         <outlet property="teamName1" destination="x3N-Qj-hmt" id="3KM-fg-wfx"/>
-                        <outlet property="teamName2" destination="8jq-nV-kyI" id="Yje-bb-DCl"/>
+                        <outlet property="teamName2" destination="8jq-nV-kyI" id="Afq-kc-Tqu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
