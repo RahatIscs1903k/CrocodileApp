@@ -8,14 +8,15 @@
 import UIKit
 
 public class CardProperties {
-    
-    var circleBackgound: UIColor
+    let circleBackgound: UIColor
     let emoji: String
     let cardName: String
+    let cardColor: UIColor
 
-    init(circleColor: UIColor, emoji: String, cardName: String) {
+    init(circleColor: UIColor, emoji: String, cardName: String, cardColor: UIColor) {
         self.circleBackgound = circleColor
         self.emoji = emoji
         self.cardName = cardName
+        self.cardColor = cardColor
     }
 }

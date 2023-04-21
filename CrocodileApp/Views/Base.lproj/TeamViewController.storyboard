@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="1TH-0u-IE2">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="1TH-0u-IE2">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Кто играет?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tew-1c-gsV">
@@ -32,10 +32,10 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="WnG-z1-hfD">
                                 <rect key="frame" x="14" y="89" width="11" height="19"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZRc-m7-av0">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZRc-m7-av0" userLabel="Team Card1">
                                 <rect key="frame" x="12" y="156.5" width="390" height="96"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ковбои" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3N-Qj-hmt">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ковбои" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3N-Qj-hmt" userLabel="Team Name1">
                                         <rect key="frame" x="129" y="36" width="67.5" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -143,10 +143,10 @@
                             <constraint firstItem="ZRc-m7-av0" firstAttribute="centerX" secondItem="y0q-Ee-qyF" secondAttribute="centerX" id="0Kw-Ya-Yel"/>
                             <constraint firstAttribute="bottom" secondItem="cxK-Fb-80P" secondAttribute="bottom" constant="62" id="1Gb-ai-R2e"/>
                             <constraint firstItem="WnG-z1-hfD" firstAttribute="top" secondItem="o0j-Df-L2V" secondAttribute="top" constant="41" id="4d5-uI-TFR"/>
-                            <constraint firstItem="1TH-0u-IE2" firstAttribute="leading" secondItem="o0j-Df-L2V" secondAttribute="leading" id="5EB-tn-n7X"/>
-                            <constraint firstItem="1TH-0u-IE2" firstAttribute="trailing" secondItem="o0j-Df-L2V" secondAttribute="trailing" id="9ZC-sY-1Zz"/>
+                            <constraint firstItem="1TH-0u-IE2" firstAttribute="leading" secondItem="y0q-Ee-qyF" secondAttribute="leading" id="8xU-UJ-h2z"/>
                             <constraint firstItem="XfY-DS-MP5" firstAttribute="leading" secondItem="o0j-Df-L2V" secondAttribute="leading" constant="12" id="9nC-IW-0KC"/>
                             <constraint firstItem="ZRc-m7-av0" firstAttribute="top" secondItem="Tew-1c-gsV" secondAttribute="bottom" constant="36" id="FFM-TR-eMc"/>
+                            <constraint firstAttribute="trailing" secondItem="1TH-0u-IE2" secondAttribute="trailing" id="GWA-72-xTB"/>
                             <constraint firstItem="Tew-1c-gsV" firstAttribute="top" secondItem="o0j-Df-L2V" secondAttribute="top" constant="32" id="JLv-ne-ZlX"/>
                             <constraint firstAttribute="bottom" secondItem="1TH-0u-IE2" secondAttribute="bottom" id="LnQ-9W-xLe"/>
                             <constraint firstItem="o0j-Df-L2V" firstAttribute="trailing" secondItem="XfY-DS-MP5" secondAttribute="trailing" constant="12" id="TTW-fl-WSd"/>
@@ -165,6 +165,8 @@
                         <outlet property="circle2" destination="1z9-IR-yIB" id="YSW-uo-khx"/>
                         <outlet property="emoji1" destination="gcL-h9-cGh" id="wVv-3C-TIw"/>
                         <outlet property="emoji2" destination="M0g-Td-yge" id="3ep-2i-WJo"/>
+                        <outlet property="teamCard1" destination="x3N-Qj-hmt" id="wbR-uJ-a8d"/>
+                        <outlet property="teamCard2" destination="XfY-DS-MP5" id="Vla-5r-7Zp"/>
                         <outlet property="teamName1" destination="x3N-Qj-hmt" id="3KM-fg-wfx"/>
                         <outlet property="teamName2" destination="8jq-nV-kyI" id="Afq-kc-Tqu"/>
                     </connections>

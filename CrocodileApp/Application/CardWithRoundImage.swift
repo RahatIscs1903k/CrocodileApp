@@ -8,19 +8,22 @@
 import UIKit
 
 class CardWithRoundImage {
-    var circleColor: UIView
+    var circle: UIView
     var emoji: UILabel
     var cardName: UILabel
+    var card: UIView
     
-    init(circleColor: UIView, emoji: UILabel, teamName: UILabel) {
-        self.circleColor = circleColor
+    init(circle: UIView, emoji: UILabel, teamName: UILabel, card: UIView) {
+        self.circle = circle
         self.emoji = emoji
         self.cardName = teamName
+        self.card = card
     }
     
     func drowCard(context: CardProperties) {
-        self.circleColor.backgroundColor = context.circleBackgound
+        self.circle.backgroundColor = context.circleBackgound
         self.emoji.text = context.emoji
         self.cardName.text = context.cardName
+        self.card.backgroundColor = context.cardColor
     }
 }
