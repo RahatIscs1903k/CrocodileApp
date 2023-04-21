@@ -17,19 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Zxh-eY-NVF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Zxh-eY-NVF">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="kdB-UH-oHc">
-                                <rect key="frame" x="15" y="51" width="11" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hUj-zL-Cyq">
-                                <rect key="frame" x="10" y="57" width="355" height="711"/>
+                                <rect key="frame" x="8" y="95" width="359" height="702"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4hh-7c-zR0">
-                                        <rect key="frame" x="10" y="10" width="335" height="691"/>
-                                        <string key="text">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="702"/>
+                                        <mutableString key="text">
 В игру играют командами из двух или более человек. 
 
 Задача каждого игрока команды - объяснить слово, которое он видит на экране, следуя условиям, которые дополнительно указаны под загаданным словом. 
@@ -41,30 +37,36 @@
 При нарушении правил объяснения слова, ход передается следующей команде.
 
 ...
-...</string>
+...
+
+Промотай ниже, тебя ждет сюрприз!
+
+
+
+               СЮРПРИЗ!!!</mutableString>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="4hh-7c-zR0" firstAttribute="top" secondItem="hUj-zL-Cyq" secondAttribute="top" constant="10" id="BT9-Kr-fw4"/>
-                                    <constraint firstItem="4hh-7c-zR0" firstAttribute="leading" secondItem="hUj-zL-Cyq" secondAttribute="leading" constant="10" id="QVJ-Qq-XFt"/>
-                                    <constraint firstAttribute="trailing" secondItem="4hh-7c-zR0" secondAttribute="trailing" constant="10" id="YYr-ys-t0s"/>
-                                    <constraint firstAttribute="bottom" secondItem="4hh-7c-zR0" secondAttribute="bottom" constant="10" id="gGu-FN-kl6"/>
+                                    <constraint firstItem="4hh-7c-zR0" firstAttribute="top" secondItem="hUj-zL-Cyq" secondAttribute="top" id="BT9-Kr-fw4"/>
+                                    <constraint firstItem="4hh-7c-zR0" firstAttribute="leading" secondItem="hUj-zL-Cyq" secondAttribute="leading" id="QVJ-Qq-XFt"/>
+                                    <constraint firstAttribute="trailing" secondItem="4hh-7c-zR0" secondAttribute="trailing" id="YYr-ys-t0s"/>
+                                    <constraint firstAttribute="bottom" secondItem="4hh-7c-zR0" secondAttribute="bottom" id="gGu-FN-kl6"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="hUj-zL-Cyq" secondAttribute="trailing" constant="10" id="NMB-y6-3wZ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Zxh-eY-NVF" secondAttribute="trailing" id="NMB-y6-3wZ"/>
+                            <constraint firstAttribute="bottom" secondItem="hUj-zL-Cyq" secondAttribute="bottom" constant="15" id="NXM-Ou-sUt"/>
                             <constraint firstItem="Zxh-eY-NVF" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="Vnq-be-dSh"/>
-                            <constraint firstItem="hUj-zL-Cyq" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="Y7N-wi-Lye"/>
+                            <constraint firstItem="hUj-zL-Cyq" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="8" id="Y7N-wi-Lye"/>
                             <constraint firstAttribute="bottom" secondItem="Zxh-eY-NVF" secondAttribute="bottom" id="YtN-it-lfl"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="hUj-zL-Cyq" secondAttribute="bottom" constant="10" id="gbc-7a-s9h"/>
+                            <constraint firstAttribute="trailing" secondItem="hUj-zL-Cyq" secondAttribute="trailing" constant="8" id="bVb-HI-ZXB"/>
                             <constraint firstItem="Zxh-eY-NVF" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailing" id="jiv-w3-jgL"/>
-                            <constraint firstItem="hUj-zL-Cyq" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="qsZ-On-PrR"/>
+                            <constraint firstItem="hUj-zL-Cyq" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="95" id="oCj-bY-Ufh"/>
                             <constraint firstItem="Zxh-eY-NVF" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="uOq-Ej-c3g"/>
                         </constraints>
                     </view>
@@ -75,13 +77,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Arrow" width="11" height="19"/>
         <image name="background" width="375" height="812"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

@@ -40,10 +40,26 @@
                                     <constraint firstAttribute="width" constant="95" id="pha-4L-eFI"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fa-AE-mH0">
-                                <rect key="frame" x="45" y="528" width="293" height="83"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNM-Sm-Bor">
+                                <rect key="frame" x="82" y="652" width="229" height="63"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="293" id="Y7X-en-lVj"/>
+                                    <constraint firstAttribute="height" constant="63" id="ke3-3i-xVo"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Правила">
+                                    <backgroundConfiguration key="background" cornerRadius="10">
+                                        <color key="backgroundColor" red="0.49803921579999999" green="0.65098041299999998" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="XpL-6n-SMZ" kind="show" id="GcT-vK-RYL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fa-AE-mH0">
+                                <rect key="frame" x="66" y="529" width="261" height="83"/>
+                                <constraints>
                                     <constraint firstAttribute="height" constant="83" id="scD-F8-sU4"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -58,32 +74,23 @@
                                     <segue destination="ef8-QV-kO8" kind="show" id="IN1-09-XWC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNM-Sm-Bor">
-                                <rect key="frame" x="82" y="394" width="229" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Правила">
-                                    <backgroundConfiguration key="background" cornerRadius="10">
-                                        <color key="backgroundColor" red="0.49803921579999999" green="0.65098041299999998" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="XpL-6n-SMZ" kind="show" id="GcT-vK-RYL"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="z3P-PA-clB" secondAttribute="bottom" id="2oI-hV-Nha"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="euG-Kt-Muv" secondAttribute="trailing" constant="53" id="3qk-98-6UI"/>
+                            <constraint firstItem="hNM-Sm-Bor" firstAttribute="top" secondItem="2Fa-AE-mH0" secondAttribute="bottom" constant="40" id="9mz-3h-GoB"/>
                             <constraint firstItem="euG-Kt-Muv" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="172" id="Dpd-g1-eYT"/>
                             <constraint firstItem="q9V-3y-g2n" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="FQu-oD-ZhV"/>
                             <constraint firstItem="z3P-PA-clB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Jwd-dR-7z5"/>
+                            <constraint firstItem="hNM-Sm-Bor" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="82" id="MUa-tw-o5G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2Fa-AE-mH0" secondAttribute="trailing" constant="50" id="P81-RU-cDs"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="hNM-Sm-Bor" secondAttribute="trailing" constant="82" id="TwV-iP-Sss"/>
+                            <constraint firstItem="2Fa-AE-mH0" firstAttribute="top" secondItem="euG-Kt-Muv" secondAttribute="bottom" constant="35" id="V8K-LG-X8i"/>
                             <constraint firstAttribute="bottom" secondItem="diC-lL-kdA" secondAttribute="bottom" id="Y9A-SJ-WJB"/>
                             <constraint firstItem="euG-Kt-Muv" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="53" id="YkZ-Ck-6Cp"/>
+                            <constraint firstItem="2Fa-AE-mH0" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" constant="50" id="ZWn-zu-wxC"/>
                             <constraint firstItem="q9V-3y-g2n" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="cu9-3f-njD"/>
                             <constraint firstItem="diC-lL-kdA" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="gtw-U1-oxR"/>
                             <constraint firstAttribute="bottom" secondItem="q9V-3y-g2n" secondAttribute="bottom" id="plP-kG-f16"/>
