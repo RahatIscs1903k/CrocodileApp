@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		452F911429F31B8E00D209AD /* CategoryViewControllerUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452F911329F31B8E00D209AD /* CategoryViewControllerUI.storyboard */; };
+		452F911629F31BA500D209AD /* GameViewControllerUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452F911529F31BA500D209AD /* GameViewControllerUI.storyboard */; };
 		45807A8729EC284E00E0B999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45807A8629EC284E00E0B999 /* AppDelegate.swift */; };
 		45807A8929EC284E00E0B999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45807A8829EC284E00E0B999 /* SceneDelegate.swift */; };
 		45807A8E29EC284E00E0B999 /* TeamViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45807A8C29EC284E00E0B999 /* TeamViewController.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		452F911329F31B8E00D209AD /* CategoryViewControllerUI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CategoryViewControllerUI.storyboard; path = ../../../../test31321/test31321/CategoryViewControllerUI.storyboard; sourceTree = "<group>"; };
+		452F911529F31BA500D209AD /* GameViewControllerUI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameViewControllerUI.storyboard; sourceTree = "<group>"; };
 		45807A8329EC284E00E0B999 /* CrocodileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrocodileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45807A8629EC284E00E0B999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45807A8829EC284E00E0B999 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				A22B95FD29F0414300A3E2D6 /* WrongViewController.storyboard */,
 				A22B95FF29F0415000A3E2D6 /* GameResultViewController.storyboard */,
 				45807A9129EC285000E0B999 /* LaunchScreen.storyboard */,
+				452F911329F31B8E00D209AD /* CategoryViewControllerUI.storyboard */,
+				452F911529F31BA500D209AD /* GameViewControllerUI.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,10 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB4E699729F1C86C00FCF233 /* RulesScreen.storyboard in Resources */,
+				452F911429F31B8E00D209AD /* CategoryViewControllerUI.storyboard in Resources */,
 				A22B95FE29F0414300A3E2D6 /* WrongViewController.storyboard in Resources */,
 				A22B95FC29F0411400A3E2D6 /* CorrectViewController.storyboard in Resources */,
 				A22B960229F04BEE00A3E2D6 /* Cookie-Regular.ttf in Resources */,
 				45807A9329EC285000E0B999 /* LaunchScreen.storyboard in Resources */,
+				452F911629F31BA500D209AD /* GameViewControllerUI.storyboard in Resources */,
 				45807A9029EC285000E0B999 /* Assets.xcassets in Resources */,
 				EB22EEEE29F1B98600738877 /* FirstScreen.storyboard in Resources */,
 				A22B960029F0415000A3E2D6 /* GameResultViewController.storyboard in Resources */,
