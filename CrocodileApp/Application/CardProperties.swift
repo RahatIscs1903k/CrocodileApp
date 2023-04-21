@@ -8,7 +8,7 @@
 import UIKit
 
 public class CardProperties {
-    // fields
+    
     var circleBackgound: UIColor
     let emoji: String
     let cardName: String
