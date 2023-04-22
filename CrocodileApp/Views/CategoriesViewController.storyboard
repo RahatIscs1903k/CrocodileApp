@@ -284,10 +284,10 @@
             </objects>
             <point key="canvasLocation" x="628" y="-35"/>
         </scene>
-        <!--GameViewControllerUI-->
+        <!--GameViewController-->
         <scene sceneID="VJL-E5-vh1">
             <objects>
-                <viewControllerPlaceholder storyboardName="GameViewControllerUI" id="6wg-d3-FiL" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="GameViewController" id="6wg-d3-FiL" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="3NC-EX-unI"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xHe-yC-Jod" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

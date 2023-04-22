@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		452F911629F31BA500D209AD /* GameViewControllerUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452F911529F31BA500D209AD /* GameViewControllerUI.storyboard */; };
+		452F911629F31BA500D209AD /* GameViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452F911529F31BA500D209AD /* GameViewController.storyboard */; };
 		45807A8729EC284E00E0B999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45807A8629EC284E00E0B999 /* AppDelegate.swift */; };
 		45807A8929EC284E00E0B999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45807A8829EC284E00E0B999 /* SceneDelegate.swift */; };
 		45807A8E29EC284E00E0B999 /* TeamViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45807A8C29EC284E00E0B999 /* TeamViewController.storyboard */; };
@@ -24,7 +24,7 @@
 		A24090F229F4367400AEF149 /* CategoriesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24090F129F4367400AEF149 /* CategoriesViewController.storyboard */; };
 		A24090F429F436A300AEF149 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24090F329F436A300AEF149 /* CategoriesViewController.swift */; };
 		A256088829F17DEA006E5ACB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256088729F17DEA006E5ACB /* CustomView.swift */; };
-		A2AF382029F4580500D92702 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF381F29F4580500D92702 /* FirstScreenViewController.swift */; };
+		A27EB85429F46FF90092920E /* ABeeZee-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A27EB85329F46FF90092920E /* ABeeZee-Italic.ttf */; };
 		D703F2FF29F32E4C00A29375 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D703F2FE29F32E4C00A29375 /* Categories.swift */; };
 		EB22EEEE29F1B98600738877 /* FirstScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB22EEED29F1B98600738877 /* FirstScreen.storyboard */; };
 		EB4E699729F1C86C00FCF233 /* RulesScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4E699629F1C86C00FCF233 /* RulesScreen.storyboard */; };
@@ -34,7 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		452F911529F31BA500D209AD /* GameViewControllerUI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameViewControllerUI.storyboard; sourceTree = "<group>"; };
+		452F911529F31BA500D209AD /* GameViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameViewController.storyboard; sourceTree = "<group>"; };
 		45807A8329EC284E00E0B999 /* CrocodileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrocodileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45807A8629EC284E00E0B999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45807A8829EC284E00E0B999 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		A24090F129F4367400AEF149 /* CategoriesViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CategoriesViewController.storyboard; sourceTree = "<group>"; };
 		A24090F329F436A300AEF149 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		A256088729F17DEA006E5ACB /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
-		A2AF381F29F4580500D92702 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		A27EB85329F46FF90092920E /* ABeeZee-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ABeeZee-Italic.ttf"; sourceTree = "<group>"; };
 		D703F2FE29F32E4C00A29375 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		EB22EEED29F1B98600738877 /* FirstScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstScreen.storyboard; sourceTree = "<group>"; };
 		EB4E699629F1C86C00FCF233 /* RulesScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RulesScreen.storyboard; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 				EB4E699629F1C86C00FCF233 /* RulesScreen.storyboard */,
 				45807A8C29EC284E00E0B999 /* TeamViewController.storyboard */,
 				A24090F129F4367400AEF149 /* CategoriesViewController.storyboard */,
-				452F911529F31BA500D209AD /* GameViewControllerUI.storyboard */,
+				452F911529F31BA500D209AD /* GameViewController.storyboard */,
 				A22B95FB29F0411400A3E2D6 /* CorrectViewController.storyboard */,
 				A22B95FD29F0414300A3E2D6 /* WrongViewController.storyboard */,
 				A22B95FF29F0415000A3E2D6 /* GameResultViewController.storyboard */,
@@ -131,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				45807A8F29EC285000E0B999 /* Assets.xcassets */,
+				A27EB85329F46FF90092920E /* ABeeZee-Italic.ttf */,
 				A22B960129F04BEE00A3E2D6 /* Cookie-Regular.ttf */,
 				45807A9429EC285000E0B999 /* Info.plist */,
 			);
@@ -145,7 +146,6 @@
 				A24090E929F4276B00AEF149 /* CorrectViewController.swift */,
 				A24090EB29F4277B00AEF149 /* WrongViewController.swift */,
 				A24090ED29F4278500AEF149 /* GameResultViewController.swift */,
-				A2AF381F29F4580500D92702 /* FirstScreenViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,7 +249,8 @@
 				A22B95FC29F0411400A3E2D6 /* CorrectViewController.storyboard in Resources */,
 				A22B960229F04BEE00A3E2D6 /* Cookie-Regular.ttf in Resources */,
 				45807A9329EC285000E0B999 /* LaunchScreen.storyboard in Resources */,
-				452F911629F31BA500D209AD /* GameViewControllerUI.storyboard in Resources */,
+				A27EB85429F46FF90092920E /* ABeeZee-Italic.ttf in Resources */,
+				452F911629F31BA500D209AD /* GameViewController.storyboard in Resources */,
 				45807A9029EC285000E0B999 /* Assets.xcassets in Resources */,
 				EB22EEEE29F1B98600738877 /* FirstScreen.storyboard in Resources */,
 				A22B960029F0415000A3E2D6 /* GameResultViewController.storyboard in Resources */,
@@ -274,7 +275,6 @@
 				D703F2FF29F32E4C00A29375 /* Categories.swift in Sources */,
 				EB4E699E29F2FB5D00FCF233 /* CardWithRoundImage.swift in Sources */,
 				A24090EA29F4276B00AEF149 /* CorrectViewController.swift in Sources */,
-				A2AF382029F4580500D92702 /* FirstScreenViewController.swift in Sources */,
 				EB4E699F29F2FB5D00FCF233 /* CardProperties.swift in Sources */,
 				45807A8929EC284E00E0B999 /* SceneDelegate.swift in Sources */,
 			);
@@ -421,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 46DJ9V93JA;
@@ -429,9 +430,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = TeamViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,7 +443,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 46DJ9V93JA;
@@ -458,9 +461,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = TeamViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,7 +474,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

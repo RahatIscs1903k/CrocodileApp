@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>ABeeZee-Italic</string>
 		<string>Cookie-Regular</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
