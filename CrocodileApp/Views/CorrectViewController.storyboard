@@ -265,10 +265,10 @@
             </objects>
             <point key="canvasLocation" x="139" y="139"/>
         </scene>
-        <!--WrongViewController-->
+        <!--CategoriesViewController-->
         <scene sceneID="x1O-Ih-ELZ">
             <objects>
-                <viewControllerPlaceholder storyboardName="WrongViewController" id="RzQ-6k-Bbs" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="CategoriesViewController" id="RzQ-6k-Bbs" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="upY-FV-5qc"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Dm-AL-BgJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

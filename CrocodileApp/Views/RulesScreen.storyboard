@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -36,10 +36,19 @@
  На отгадывание слова дается одна минуту. 
 При нарушении правил объяснения слова, ход передается следующей команде.
 
-...
-...
+Команда, которая отгадала слово, должна сыграть короткий танец или исполнить песню перед тем, как получить баллы за ответ.
 
-Промотай ниже, тебя ждет сюрприз!
+Если участник команды использует запрещенные слова при объяснении, то он должен сделать что-то забавное, например, надеть на себя смешную шляпу или очки на время следующего раунда.
+
+Каждый раз, когда команда набирает определенное количество баллов (например, 10 или 20), они должны совершать какой-то смешной ритуал, например, вскакивать со стульев и кричать "Мы - чемпионы!".
+
+Если участник команды не может объяснить слово за отведенное время, он должен исполнить смешную импровизацию на заданную тему.
+
+Если команда набрала меньше определенного количества баллов за раунд, они должны пройти "испытание", например, рассказать смешную историю или решить загадку.
+
+Каждый раз, когда команда получает баллы, они должны выполнять забавное действие, например, выкладывать картинку со смешной рожицей на доску счета.
+
+Перед каждым раундом один участник команды должен надеть смешную маску и говорить в ней, пока его команда отгадывает слова.
 
 
 
@@ -79,7 +88,7 @@
     <resources>
         <image name="background" width="375" height="812"/>
         <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
