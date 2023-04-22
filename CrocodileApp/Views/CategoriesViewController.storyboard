@@ -45,7 +45,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="tFI-3I-pZ6">
                                 <rect key="frame" x="31.5" y="157" width="351" height="459"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vy0-hl-9wT" userLabel="Team Card1">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vy0-hl-9wT" userLabel="Team Card1" customClass="UIButton">
                                         <rect key="frame" x="0.0" y="0.0" width="351" height="96"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Животные" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yy-UM-n0h" userLabel="Team Name1">
@@ -78,7 +78,10 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                        <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES"/>
+                                        </accessibility>
                                         <constraints>
                                             <constraint firstItem="5yy-UM-n0h" firstAttribute="leading" secondItem="SDI-bI-Sa5" secondAttribute="trailing" constant="56" id="1hT-iG-h4Y"/>
                                             <constraint firstItem="SDI-bI-Sa5" firstAttribute="leading" secondItem="vy0-hl-9wT" secondAttribute="leading" constant="17" id="9Po-EG-Fmw"/>
@@ -88,8 +91,11 @@
                                             <constraint firstAttribute="height" constant="96" id="ZzC-C0-OiN"/>
                                             <constraint firstItem="5yy-UM-n0h" firstAttribute="centerY" secondItem="vy0-hl-9wT" secondAttribute="centerY" id="qLm-j9-ifV"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="onclickOnFirstButton:" destination="Y6W-OH-hqX" eventType="valueChanged" id="lav-mC-TEU"/>
+                                        </connections>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0cQ-yL-n5I">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0cQ-yL-n5I" customClass="UIButton">
                                         <rect key="frame" x="0.0" y="121" width="351" height="96"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Личности" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xc9-Et-eas">
@@ -123,6 +129,9 @@
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES"/>
+                                        </accessibility>
                                         <constraints>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xc9-Et-eas" secondAttribute="trailing" constant="20" symbolic="YES" id="0xS-bX-Rgf"/>
                                             <constraint firstAttribute="height" constant="96" id="Bx4-TA-WMU"/>
@@ -132,8 +141,11 @@
                                             <constraint firstItem="1mn-c9-DJY" firstAttribute="leading" secondItem="0cQ-yL-n5I" secondAttribute="leading" constant="17" id="hCX-ak-6wU"/>
                                             <constraint firstItem="1mn-c9-DJY" firstAttribute="centerY" secondItem="0cQ-yL-n5I" secondAttribute="centerY" id="hea-m7-xcq"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="onclickOnSecondButton:" destination="Y6W-OH-hqX" eventType="valueChanged" id="tJ1-Lt-3BK"/>
+                                        </connections>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bSc-bh-KM7">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bSc-bh-KM7" customClass="UIButton">
                                         <rect key="frame" x="0.0" y="242" width="351" height="96"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Страны" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etk-zZ-Kt5">
@@ -167,6 +179,9 @@
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="tintColor"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES"/>
+                                        </accessibility>
                                         <constraints>
                                             <constraint firstItem="KtD-J5-yn1" firstAttribute="centerY" secondItem="bSc-bh-KM7" secondAttribute="centerY" id="2ux-BC-VBa"/>
                                             <constraint firstItem="etk-zZ-Kt5" firstAttribute="centerY" secondItem="bSc-bh-KM7" secondAttribute="centerY" id="AqP-Jx-wpt"/>
@@ -176,8 +191,11 @@
                                             <constraint firstAttribute="width" constant="351" id="pIp-3B-Fua"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="etk-zZ-Kt5" secondAttribute="trailing" constant="20" symbolic="YES" id="tTf-O4-9eB"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="onclickOnThirdButton:" destination="Y6W-OH-hqX" eventType="valueChanged" id="XV4-Sp-82C"/>
+                                        </connections>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qj-Ql-Xdt">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qj-Ql-Xdt" customClass="UIButton">
                                         <rect key="frame" x="0.0" y="363" width="351" height="96"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Еда" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6g-Tg-l2g">
@@ -211,6 +229,9 @@
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES"/>
+                                        </accessibility>
                                         <constraints>
                                             <constraint firstItem="qzv-rS-tgi" firstAttribute="centerY" secondItem="3qj-Ql-Xdt" secondAttribute="centerY" id="7c7-Mz-zUt"/>
                                             <constraint firstAttribute="height" constant="96" id="F4t-0l-uoH"/>
@@ -220,6 +241,9 @@
                                             <constraint firstItem="qzv-rS-tgi" firstAttribute="leading" secondItem="3qj-Ql-Xdt" secondAttribute="leading" constant="17" id="s5T-IB-qEz"/>
                                             <constraint firstItem="g6g-Tg-l2g" firstAttribute="leading" secondItem="qzv-rS-tgi" secondAttribute="trailing" constant="56" id="uMe-uX-twQ"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="onclickOnFourthButton:" destination="Y6W-OH-hqX" eventType="valueChanged" id="VkQ-7U-eDX"/>
+                                        </connections>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -301,11 +325,11 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
