@@ -110,7 +110,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mQy-hx-JPb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="732" y="4"/>
+            <point key="canvasLocation" x="761" y="3"/>
         </scene>
         <!--RulesScreen-->
         <scene sceneID="Z4C-lz-3Mk">
@@ -120,7 +120,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dna-ST-iA4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="740" y="185"/>
+            <point key="canvasLocation" x="135" y="423"/>
         </scene>
     </scenes>
     <resources>
