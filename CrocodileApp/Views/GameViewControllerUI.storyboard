@@ -33,7 +33,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="8iI-Hb-B75" kind="show" id="YaV-7q-Y4h"/>
+                                    <segue destination="8iI-Hb-B75" kind="presentation" modalPresentationStyle="fullScreen" id="YaV-7q-Y4h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCh-RE-fcl">
@@ -45,7 +45,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="W8F-iv-Eon" kind="show" id="JTT-Ta-KXT"/>
+                                    <segue destination="W8F-iv-Eon" kind="presentation" modalPresentationStyle="fullScreen" id="JTT-Ta-KXT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhU-v7-ZBy">
@@ -56,7 +56,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="A3N-eY-Rud" kind="show" id="EZC-i7-J0q"/>
+                                    <segue destination="A3N-eY-Rud" kind="presentation" modalPresentationStyle="fullScreen" id="EZC-i7-J0q"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="miniCroco" highlightedImage="miniCroco" translatesAutoresizingMaskIntoConstraints="NO" id="GLg-SK-TQH">
