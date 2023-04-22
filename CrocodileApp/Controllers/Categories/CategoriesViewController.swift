@@ -30,27 +30,59 @@ class CategoriesViewController: UIViewController {
     @IBOutlet weak var categoriesCard4CustomView: UIView!
     @IBOutlet weak var categoriesCard4EmogiLabel: UILabel!
     
+
+    
+    var firstCategoryCard: CardWithRoundImage
+    var secondCategoryCard: CardWithRoundImage
+    var thirdCategoryCard: CardWithRoundImage
+    var fourthCategoryCard: CardWithRoundImage
+
+    
     //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
-        let firstCategoryCard = CardWithRoundImage(circle: categoriesCard1CustomView, emoji: categoriesCard1EmogiLabel, cardName: categoriesCard1TeamNameLabel, card: categoriesCard1View)
-        
-        let secondCategoryCard = CardWithRoundImage(circle: categoriesCard2CustomView, emoji: categoriesCard2EmogiLabel, cardName: categoriesCard2TeamNameLabel, card: categoriesCard2View)
-        
-        let thirdCategoryCard = CardWithRoundImage(circle: categoriesCard3CustomView, emoji: categoriesCard3EmogiLabel, cardName: categoriesCard3TeamNameLabel, card: categoriesCard3View)
-        
-        let fourthCategoryCard = CardWithRoundImage(circle: categoriesCard4CustomView, emoji: categoriesCard4EmogiLabel, cardName: categoriesCard4TeamNameLabel, card: categoriesCard4View)
-        
-        let firscCategory = Categories().chooseRandomCatgoryCard()
+        let firstCategory = Categories().chooseRandomCatgoryCard()
         var secondCategory = Categories().chooseRandomCatgoryCard()
         let thirdCategory = Categories().chooseRandomCatgoryCard()
         let fourthCategory = Categories().chooseRandomCatgoryCard()
-        
-
-        
-        firstCategoryCard.drowCard(context: firscCategory)
-        secondCategoryCard.drowCard(context: secondCategory)
     
+         firstCategoryCard = CardWithRoundImage(circle: categoriesCard1CustomView, emoji: categoriesCard1EmogiLabel, cardName: categoriesCard1TeamNameLabel, card: categoriesCard1View)
+        
+         secondCategoryCard = CardWithRoundImage(circle: categoriesCard2CustomView, emoji: categoriesCard2EmogiLabel, cardName: categoriesCard2TeamNameLabel, card: categoriesCard2View)
+        
+         thirdCategoryCard = CardWithRoundImage(circle: categoriesCard3CustomView, emoji: categoriesCard3EmogiLabel, cardName: categoriesCard3TeamNameLabel, card: categoriesCard3View)
+        
+         fourthCategoryCard = CardWithRoundImage(circle: categoriesCard4CustomView, emoji: categoriesCard4EmogiLabel, cardName: categoriesCard4TeamNameLabel, card: categoriesCard4View)
+
+        firstCategoryCard.drowCard(context: firstCategory)
+        secondCategoryCard.drowCard(context: secondCategory)
+        thirdCategoryCard.drowCard(context: thirdCategory)
+        fourthCategoryCard.drowCard(context: fourthCategory)
+        
+        func changeCheckbox(card: CardWithRoundImage) {
+            card.isChecked = !card.isChecked
+        }
+        
     }
+    
+    @IBAction func onclickOnFirstButton(_ sender: Any) {
+        
+    }
+    
+    @IBAction func onclickOnSecondButton(_ sender: Any) {
+        secondCategoryCard.isChecked = !secondCategoryCard.isChecked
+    }
+    
+    
+    @IBAction func onclickOnThirdButton(_ sender: Any) {
+        thirdCategoryCard.isChecked = !thirdCategoryCard.isChecked
+    }
+    
+    @IBAction func onclickOnFourthButton(_ sender: Any) {
+        fourthCategoryCard.isChecked = !fourthCategoryCard.isChecked
+    }
+    
+    
 }

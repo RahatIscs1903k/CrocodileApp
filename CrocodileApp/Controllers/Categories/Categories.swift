@@ -10,6 +10,9 @@ import Foundation
 import UIKit
 
 class Categories {
+    
+    var isChecked: Bool = false
+    
     public var catigories = [
         CardProperties(circleColor: UIColor(#colorLiteral(red: 0.9887679219, green: 0.7098553777, blue: 0.7292196155, alpha: 1)), emoji: "🐸", cardName: "Животные", cardColor: UIColor.red),
         CardProperties(circleColor: UIColor(#colorLiteral(red: 1, green: 0.677408874, blue: 0.9359813929, alpha: 1)), emoji: "👷", cardName: "Профессии", cardColor: UIColor.blue),
