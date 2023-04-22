@@ -313,7 +313,7 @@
                                             <color key="baseBackgroundColor" red="0.4534765482" green="0.65650480990000004" blue="0.187305212" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="9RQ-vx-FsX" kind="show" id="68l-hA-Dzh"/>
+                                            <segue destination="9RQ-vx-FsX" kind="presentation" modalPresentationStyle="fullScreen" id="68l-hA-Dzh"/>
                                         </connections>
                                     </button>
                                 </subviews>

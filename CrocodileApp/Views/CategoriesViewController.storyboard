@@ -29,9 +29,6 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="i70-bZ-LE6">
-                                <rect key="frame" x="14" y="85" width="11" height="19"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elu-7T-iBq">
                                 <rect key="frame" x="33.5" y="774" width="347" height="60"/>
                                 <constraints>
@@ -47,7 +44,7 @@
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="6wg-d3-FiL" kind="show" id="0pI-b9-hSy"/>
+                                    <segue destination="6wg-d3-FiL" kind="presentation" modalPresentationStyle="fullScreen" id="0pI-b9-hSy"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vy0-hl-9wT" userLabel="Team Card1">
@@ -222,24 +219,32 @@
                                     <constraint firstItem="g6g-Tg-l2g" firstAttribute="leading" secondItem="qzv-rS-tgi" secondAttribute="trailing" constant="56" id="uMe-uX-twQ"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SiN-5R-fsT">
+                                <rect key="frame" x="14" y="85" width="39" height="33"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Arrow" title=" "/>
+                                <connections>
+                                    <segue destination="3FN-3e-KwD" kind="presentation" modalPresentationStyle="fullScreen" id="4WI-dV-Vbh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pW9-VT-W8L"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="0cQ-yL-n5I" firstAttribute="centerX" secondItem="vRX-LT-8qz" secondAttribute="centerX" id="1mt-S2-NhV"/>
                             <constraint firstItem="elu-7T-iBq" firstAttribute="centerX" secondItem="vRX-LT-8qz" secondAttribute="centerX" id="8bw-SQ-7mP"/>
+                            <constraint firstItem="SiN-5R-fsT" firstAttribute="leading" secondItem="pW9-VT-W8L" secondAttribute="leading" constant="14" id="91G-LL-x3n"/>
                             <constraint firstItem="pW9-VT-W8L" firstAttribute="trailing" secondItem="vy0-hl-9wT" secondAttribute="trailing" constant="12" id="9t8-sg-7ST"/>
                             <constraint firstItem="0cQ-yL-n5I" firstAttribute="leading" secondItem="pW9-VT-W8L" secondAttribute="leading" constant="12" id="F4e-Fq-oac"/>
                             <constraint firstItem="GJR-3v-Md6" firstAttribute="centerX" secondItem="vRX-LT-8qz" secondAttribute="centerX" id="GEA-AC-MjL"/>
-                            <constraint firstItem="i70-bZ-LE6" firstAttribute="top" secondItem="pW9-VT-W8L" secondAttribute="top" constant="41" id="IEL-Aw-804"/>
                             <constraint firstAttribute="bottom" secondItem="elu-7T-iBq" secondAttribute="bottom" constant="62" id="Qgg-iS-3wh"/>
                             <constraint firstItem="zT0-tJ-7zy" firstAttribute="leading" secondItem="vRX-LT-8qz" secondAttribute="leading" id="VTT-kK-q4l"/>
-                            <constraint firstItem="i70-bZ-LE6" firstAttribute="leading" secondItem="pW9-VT-W8L" secondAttribute="leading" constant="14" id="WEo-PR-YTt"/>
                             <constraint firstAttribute="trailing" secondItem="zT0-tJ-7zy" secondAttribute="trailing" id="iBs-nN-Sbm"/>
                             <constraint firstItem="vy0-hl-9wT" firstAttribute="top" secondItem="GJR-3v-Md6" secondAttribute="bottom" constant="36" id="ixm-J5-AHH"/>
                             <constraint firstItem="0cQ-yL-n5I" firstAttribute="top" secondItem="vy0-hl-9wT" secondAttribute="bottom" constant="28" id="o6N-1Q-LgA"/>
                             <constraint firstItem="vy0-hl-9wT" firstAttribute="centerX" secondItem="vRX-LT-8qz" secondAttribute="centerX" id="oOG-60-84c"/>
                             <constraint firstItem="GJR-3v-Md6" firstAttribute="top" secondItem="pW9-VT-W8L" secondAttribute="top" constant="32" id="oRr-0E-Fhe"/>
+                            <constraint firstItem="SiN-5R-fsT" firstAttribute="top" secondItem="pW9-VT-W8L" secondAttribute="top" constant="41" id="r4O-W1-a1Y"/>
                             <constraint firstAttribute="bottom" secondItem="zT0-tJ-7zy" secondAttribute="bottom" id="rkM-yt-I11"/>
                             <constraint firstItem="zT0-tJ-7zy" firstAttribute="top" secondItem="vRX-LT-8qz" secondAttribute="top" id="tL4-ai-bEC"/>
                             <constraint firstItem="pW9-VT-W8L" firstAttribute="trailing" secondItem="0cQ-yL-n5I" secondAttribute="trailing" constant="12" id="tyN-s6-yzK"/>
@@ -269,6 +274,14 @@
             </objects>
             <point key="canvasLocation" x="52.671755725190835" y="3.5211267605633805"/>
         </scene>
+        <!--TeamViewController-->
+        <scene sceneID="lJq-kU-G2w">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TeamViewController" id="3FN-3e-KwD" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wge-Hb-jxo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628" y="-35"/>
+        </scene>
         <!--GameViewControllerUI-->
         <scene sceneID="VJL-E5-vh1">
             <objects>
@@ -277,7 +290,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xHe-yC-Jod" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="620" y="3"/>
+            <point key="canvasLocation" x="631" y="42"/>
         </scene>
     </scenes>
     <resources>

@@ -24,6 +24,7 @@
 		A24090F229F4367400AEF149 /* CategoriesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24090F129F4367400AEF149 /* CategoriesViewController.storyboard */; };
 		A24090F429F436A300AEF149 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24090F329F436A300AEF149 /* CategoriesViewController.swift */; };
 		A256088829F17DEA006E5ACB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256088729F17DEA006E5ACB /* CustomView.swift */; };
+		A2AF382029F4580500D92702 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF381F29F4580500D92702 /* FirstScreenViewController.swift */; };
 		D703F2FF29F32E4C00A29375 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D703F2FE29F32E4C00A29375 /* Categories.swift */; };
 		EB22EEEE29F1B98600738877 /* FirstScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB22EEED29F1B98600738877 /* FirstScreen.storyboard */; };
 		EB4E699729F1C86C00FCF233 /* RulesScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4E699629F1C86C00FCF233 /* RulesScreen.storyboard */; };
@@ -52,6 +53,7 @@
 		A24090F129F4367400AEF149 /* CategoriesViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CategoriesViewController.storyboard; sourceTree = "<group>"; };
 		A24090F329F436A300AEF149 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		A256088729F17DEA006E5ACB /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		A2AF381F29F4580500D92702 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 		D703F2FE29F32E4C00A29375 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		EB22EEED29F1B98600738877 /* FirstScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstScreen.storyboard; sourceTree = "<group>"; };
 		EB4E699629F1C86C00FCF233 /* RulesScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RulesScreen.storyboard; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				A24090E929F4276B00AEF149 /* CorrectViewController.swift */,
 				A24090EB29F4277B00AEF149 /* WrongViewController.swift */,
 				A24090ED29F4278500AEF149 /* GameResultViewController.swift */,
+				A2AF381F29F4580500D92702 /* FirstScreenViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				D703F2FF29F32E4C00A29375 /* Categories.swift in Sources */,
 				EB4E699E29F2FB5D00FCF233 /* CardWithRoundImage.swift in Sources */,
 				A24090EA29F4276B00AEF149 /* CorrectViewController.swift in Sources */,
+				A2AF382029F4580500D92702 /* FirstScreenViewController.swift in Sources */,
 				EB4E699F29F2FB5D00FCF233 /* CardProperties.swift in Sources */,
 				45807A8929EC284E00E0B999 /* SceneDelegate.swift in Sources */,
 			);

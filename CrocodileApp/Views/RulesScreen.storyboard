@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Rules Screen View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="RulesScreenViewController" customModule="CrocodileApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,8 +25,7 @@
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4hh-7c-zR0">
                                         <rect key="frame" x="0.0" y="0.0" width="359" height="702"/>
-                                        <mutableString key="text">
-В игру играют командами из двух или более человек. 
+                                        <string key="text">В игру играют командами из двух или более человек. 
 
 Задача каждого игрока команды - объяснить слово, которое он видит на экране, следуя условиям, которые дополнительно указаны под загаданным словом. 
 
@@ -50,9 +49,25 @@
 
 Перед каждым раундом один участник команды должен надеть смешную маску и говорить в ней, пока его команда отгадывает слова.
 
+Если команда отгадала все слова в раунде, то они получают право выбрать музыкальный трек, который будет проигрываться во время следующего раунда.
 
+Каждый раз, когда команда отгадывает слово, они должны взять в руки забавный реквизит, например, мячик или маракасы.
 
-               СЮРПРИЗ!!!</mutableString>
+Если команда отгадывает слово настолько быстро, что остается еще несколько секунд до окончания времени, то участники должны начать танцевать до конца времени.
+
+Перед каждым раундом, один член команды должен надеть на голову смешную шляпу и говорить в ней, пока его команда отгадывает слова.
+
+Каждый раз, когда команда набирает баллы, они должны взять фотоаппарат и сделать себе забавные селфи.
+
+Если команда набрала больше всех баллов за игру, то они получают право выбрать место, где все будут праздновать их победу.
+
+Если участник команды использует сложные слова при объяснении, то он должен выполнить забавное действие, например, сделать "волшебную" позу перед следующим раундом.
+
+Каждый раз, когда команда отгадывает слово, они должны сделать забавный жест, например, кивнуть головой или потанцевать.
+
+Если команда отгадывает слово с первой попытки, то участники должны начать петь песню, которая связана с темой слова.
+
+Перед каждым раундом, участники команды должны выбрать забавный звук, который они будут издавать, когда отгадывают слово.</string>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -65,27 +80,47 @@
                                     <constraint firstAttribute="bottom" secondItem="4hh-7c-zR0" secondAttribute="bottom" id="gGu-FN-kl6"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhP-X7-8wF">
+                                <rect key="frame" x="14" y="54" width="39" height="33"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Arrow" title=" "/>
+                                <connections>
+                                    <segue destination="R70-2e-imn" kind="presentation" modalPresentationStyle="fullScreen" id="LXB-Ul-dE3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Zxh-eY-NVF" secondAttribute="trailing" id="NMB-y6-3wZ"/>
                             <constraint firstAttribute="bottom" secondItem="hUj-zL-Cyq" secondAttribute="bottom" constant="15" id="NXM-Ou-sUt"/>
+                            <constraint firstItem="LhP-X7-8wF" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="54" id="Rcs-I3-UMZ"/>
                             <constraint firstItem="Zxh-eY-NVF" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="Vnq-be-dSh"/>
                             <constraint firstItem="hUj-zL-Cyq" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="8" id="Y7N-wi-Lye"/>
                             <constraint firstAttribute="bottom" secondItem="Zxh-eY-NVF" secondAttribute="bottom" id="YtN-it-lfl"/>
                             <constraint firstAttribute="trailing" secondItem="hUj-zL-Cyq" secondAttribute="trailing" constant="8" id="bVb-HI-ZXB"/>
+                            <constraint firstItem="LhP-X7-8wF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="14" id="cC4-2c-rtJ"/>
                             <constraint firstItem="Zxh-eY-NVF" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailing" id="jiv-w3-jgL"/>
                             <constraint firstItem="hUj-zL-Cyq" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="95" id="oCj-bY-Ufh"/>
                             <constraint firstItem="Zxh-eY-NVF" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="uOq-Ej-c3g"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="scZ-eo-njE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="119.84732824427481" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1061.5999999999999" y="2.9556650246305418"/>
+        </scene>
+        <!--FirstScreen-->
+        <scene sceneID="BYr-4f-3OE">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FirstScreen" id="R70-2e-imn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CfW-mN-zJ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1623" y="3"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Arrow" width="11" height="19"/>
         <image name="background" width="375" height="812"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

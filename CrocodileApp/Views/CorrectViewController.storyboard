@@ -213,7 +213,7 @@
                                             <color key="baseBackgroundColor" red="0.4534765482" green="0.65650480990000004" blue="0.187305212" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="RzQ-6k-Bbs" kind="show" id="RiY-ia-mpW"/>
+                                            <segue destination="RzQ-6k-Bbs" kind="presentation" modalPresentationStyle="fullScreen" id="RiY-ia-mpW"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -265,10 +265,10 @@
             </objects>
             <point key="canvasLocation" x="139" y="139"/>
         </scene>
-        <!--CategoriesViewController-->
+        <!--GameViewControllerUI-->
         <scene sceneID="x1O-Ih-ELZ">
             <objects>
-                <viewControllerPlaceholder storyboardName="CategoriesViewController" id="RzQ-6k-Bbs" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="GameViewControllerUI" id="RzQ-6k-Bbs" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="upY-FV-5qc"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Dm-AL-BgJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
