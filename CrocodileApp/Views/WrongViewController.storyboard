@@ -14,10 +14,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Wrong View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="WrongViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vsU-is-fIL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -259,10 +259,10 @@
             </objects>
             <point key="canvasLocation" x="139" y="139"/>
         </scene>
-        <!--GameViewControllerUI-->
+        <!--GameViewController-->
         <scene sceneID="aQp-ux-fSD">
             <objects>
-                <viewControllerPlaceholder storyboardName="GameViewControllerUI" id="HHd-6Y-VEu" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="GameViewController" id="HHd-6Y-VEu" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="2vt-1g-ZcC"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0sV-9O-60f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
