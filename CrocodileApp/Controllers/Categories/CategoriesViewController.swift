@@ -12,6 +12,6 @@ class CategoriesViewController: UIViewController {
     
     
     override func viewDidLoad() {
-        <#code#>
+        super.viewDidLoad()
     }
 }
