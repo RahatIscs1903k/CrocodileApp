@@ -13,10 +13,10 @@ class CardWithRoundImage {
     var cardName: UILabel
     var card: UIView
     
-    init(circle: UIView, emoji: UILabel, teamName: UILabel, card: UIView) {
+    init(circle: UIView, emoji: UILabel,  cardName: UILabel, card: UIView) {
         self.circle = circle
         self.emoji = emoji
-        self.cardName = teamName
+        self.cardName = cardName
         self.card = card
     }
     

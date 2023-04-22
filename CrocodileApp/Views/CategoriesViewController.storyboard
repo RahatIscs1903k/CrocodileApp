@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Кто играет?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJR-3v-Md6">
-                                <rect key="frame" x="105" y="76" width="204" height="40.5"/>
+                                <rect key="frame" x="105" y="80" width="204" height="40.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40.666666666666657" id="oET-He-79W"/>
                                 </constraints>
@@ -30,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="i70-bZ-LE6">
-                                <rect key="frame" x="14" y="85" width="11" height="19"/>
+                                <rect key="frame" x="14" y="89" width="11" height="19"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elu-7T-iBq">
                                 <rect key="frame" x="33.5" y="774" width="347" height="60"/>
@@ -48,7 +48,7 @@
                                 </buttonConfiguration>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vy0-hl-9wT" userLabel="Team Card1">
-                                <rect key="frame" x="12" y="152.5" width="390" height="96"/>
+                                <rect key="frame" x="12" y="156.5" width="390" height="96"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Животные" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yy-UM-n0h" userLabel="Team Name1">
                                         <rect key="frame" x="129" y="36" width="98" height="24"/>
@@ -91,7 +91,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0cQ-yL-n5I">
-                                <rect key="frame" x="12" y="276.5" width="390" height="96"/>
+                                <rect key="frame" x="12" y="280.5" width="390" height="96"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Личности" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xc9-Et-eas">
                                         <rect key="frame" x="129" y="36" width="90" height="24"/>
@@ -246,7 +246,6 @@
                     <connections>
                         <outlet property="teamCard1CustomView" destination="SDI-bI-Sa5" id="0Gn-Be-Wh4"/>
                         <outlet property="teamCard1EmogiLabel" destination="V5J-OJ-xYG" id="0fe-cU-khK"/>
-                        <outlet property="teamCard1TeamNameLabel" destination="5yy-UM-n0h" id="bjk-36-al7"/>
                         <outlet property="teamCard1View" destination="vy0-hl-9wT" id="0cq-IO-gut"/>
                         <outlet property="teamCard2CustomView" destination="1mn-c9-DJY" id="fq9-nA-fWx"/>
                         <outlet property="teamCard2EmogiLabel" destination="zoh-qJ-dLQ" id="2CF-v0-FpD"/>
@@ -260,6 +259,7 @@
                         <outlet property="teamCard4EmogiLabel" destination="Dg0-h4-iAf" id="1TU-v2-DXa"/>
                         <outlet property="teamCard4TeamNameLabel" destination="g6g-Tg-l2g" id="lOE-hS-mwO"/>
                         <outlet property="teamCard4View" destination="3qj-Ql-Xdt" id="4B7-KA-qPI"/>
+                        <outlet property="teamName1" destination="5yy-UM-n0h" id="bjk-36-al7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
