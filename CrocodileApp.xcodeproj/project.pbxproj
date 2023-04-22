@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		452F911429F31B8E00D209AD /* CategoryViewControllerUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452F911329F31B8E00D209AD /* CategoryViewControllerUI.storyboard */; };
 		452F911629F31BA500D209AD /* GameViewControllerUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452F911529F31BA500D209AD /* GameViewControllerUI.storyboard */; };
 		45807A8729EC284E00E0B999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45807A8629EC284E00E0B999 /* AppDelegate.swift */; };
 		45807A8929EC284E00E0B999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45807A8829EC284E00E0B999 /* SceneDelegate.swift */; };
@@ -19,6 +18,9 @@
 		A22B960029F0415000A3E2D6 /* GameResultViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22B95FF29F0415000A3E2D6 /* GameResultViewController.storyboard */; };
 		A22B960229F04BEE00A3E2D6 /* Cookie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A22B960129F04BEE00A3E2D6 /* Cookie-Regular.ttf */; };
 		A22C3DF229F0AAD100046192 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C3DF129F0AAD100046192 /* TeamViewController.swift */; };
+		A24090EA29F4276B00AEF149 /* CorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24090E929F4276B00AEF149 /* CorrectViewController.swift */; };
+		A24090EC29F4277B00AEF149 /* WrongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24090EB29F4277B00AEF149 /* WrongViewController.swift */; };
+		A24090EE29F4278500AEF149 /* GameResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24090ED29F4278500AEF149 /* GameResultViewController.swift */; };
 		A256088829F17DEA006E5ACB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256088729F17DEA006E5ACB /* CustomView.swift */; };
 		D703F2FF29F32E4C00A29375 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D703F2FE29F32E4C00A29375 /* Categories.swift */; };
 		EB22EEEE29F1B98600738877 /* FirstScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB22EEED29F1B98600738877 /* FirstScreen.storyboard */; };
@@ -29,7 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		452F911329F31B8E00D209AD /* CategoryViewControllerUI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CategoryViewControllerUI.storyboard; path = ../../../../test31321/test31321/CategoryViewControllerUI.storyboard; sourceTree = "<group>"; };
 		452F911529F31BA500D209AD /* GameViewControllerUI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameViewControllerUI.storyboard; sourceTree = "<group>"; };
 		45807A8329EC284E00E0B999 /* CrocodileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrocodileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45807A8629EC284E00E0B999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +44,9 @@
 		A22B95FF29F0415000A3E2D6 /* GameResultViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameResultViewController.storyboard; sourceTree = "<group>"; };
 		A22B960129F04BEE00A3E2D6 /* Cookie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cookie-Regular.ttf"; sourceTree = "<group>"; };
 		A22C3DF129F0AAD100046192 /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		A24090E929F4276B00AEF149 /* CorrectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectViewController.swift; sourceTree = "<group>"; };
+		A24090EB29F4277B00AEF149 /* WrongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongViewController.swift; sourceTree = "<group>"; };
+		A24090ED29F4278500AEF149 /* GameResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultViewController.swift; sourceTree = "<group>"; };
 		A256088729F17DEA006E5ACB /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		D703F2FE29F32E4C00A29375 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		EB22EEED29F1B98600738877 /* FirstScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstScreen.storyboard; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 			children = (
 				A22C3DF329F0AC1100046192 /* Application */,
 				A22C3DF529F0AC9600046192 /* Resources */,
+				A24090F029F4338600AEF149 /* Model */,
 				A22C3DF429F0AC2400046192 /* Views */,
 				A22C3DF629F0ACC800046192 /* Controllers */,
 				A256088929F17DFD006E5ACB /* Customs */,
@@ -94,10 +99,6 @@
 		A22C3DF329F0AC1100046192 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				D703F2FE29F32E4C00A29375 /* Categories.swift */,
-				EB4E699B29F2FB5D00FCF233 /* CardProperties.swift */,
-				EB4E699A29F2FB5D00FCF233 /* CardWithRoundImage.swift */,
-				EB4E699829F2FB5D00FCF233 /* Teams.swift */,
 				45807A8629EC284E00E0B999 /* AppDelegate.swift */,
 				45807A8829EC284E00E0B999 /* SceneDelegate.swift */,
 			);
@@ -110,12 +111,11 @@
 				EB22EEED29F1B98600738877 /* FirstScreen.storyboard */,
 				EB4E699629F1C86C00FCF233 /* RulesScreen.storyboard */,
 				45807A8C29EC284E00E0B999 /* TeamViewController.storyboard */,
+				452F911529F31BA500D209AD /* GameViewControllerUI.storyboard */,
 				A22B95FB29F0411400A3E2D6 /* CorrectViewController.storyboard */,
 				A22B95FD29F0414300A3E2D6 /* WrongViewController.storyboard */,
 				A22B95FF29F0415000A3E2D6 /* GameResultViewController.storyboard */,
 				45807A9129EC285000E0B999 /* LaunchScreen.storyboard */,
-				452F911329F31B8E00D209AD /* CategoryViewControllerUI.storyboard */,
-				452F911529F31BA500D209AD /* GameViewControllerUI.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,14 +133,36 @@
 		A22C3DF629F0ACC800046192 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A22C3DF129F0AAD100046192 /* TeamViewController.swift */,
+				A24090EF29F429CE00AEF149 /* Teams */,
+				D703F2FE29F32E4C00A29375 /* Categories.swift */,
+				A24090E929F4276B00AEF149 /* CorrectViewController.swift */,
+				A24090EB29F4277B00AEF149 /* WrongViewController.swift */,
+				A24090ED29F4278500AEF149 /* GameResultViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A24090EF29F429CE00AEF149 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E699829F2FB5D00FCF233 /* Teams.swift */,
+				A22C3DF129F0AAD100046192 /* TeamViewController.swift */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		A24090F029F4338600AEF149 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E699B29F2FB5D00FCF233 /* CardProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A256088929F17DFD006E5ACB /* Customs */ = {
 			isa = PBXGroup;
 			children = (
+				EB4E699A29F2FB5D00FCF233 /* CardWithRoundImage.swift */,
 				A256088729F17DEA006E5ACB /* CustomView.swift */,
 			);
 			path = Customs;
@@ -205,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB4E699729F1C86C00FCF233 /* RulesScreen.storyboard in Resources */,
-				452F911429F31B8E00D209AD /* CategoryViewControllerUI.storyboard in Resources */,
 				A22B95FE29F0414300A3E2D6 /* WrongViewController.storyboard in Resources */,
 				A22B95FC29F0411400A3E2D6 /* CorrectViewController.storyboard in Resources */,
 				A22B960229F04BEE00A3E2D6 /* Cookie-Regular.ttf in Resources */,
@@ -227,10 +248,13 @@
 			files = (
 				45807A8729EC284E00E0B999 /* AppDelegate.swift in Sources */,
 				EB4E699C29F2FB5D00FCF233 /* Teams.swift in Sources */,
+				A24090EE29F4278500AEF149 /* GameResultViewController.swift in Sources */,
 				A256088829F17DEA006E5ACB /* CustomView.swift in Sources */,
 				A22C3DF229F0AAD100046192 /* TeamViewController.swift in Sources */,
+				A24090EC29F4277B00AEF149 /* WrongViewController.swift in Sources */,
 				D703F2FF29F32E4C00A29375 /* Categories.swift in Sources */,
 				EB4E699E29F2FB5D00FCF233 /* CardWithRoundImage.swift in Sources */,
+				A24090EA29F4276B00AEF149 /* CorrectViewController.swift in Sources */,
 				EB4E699F29F2FB5D00FCF233 /* CardProperties.swift in Sources */,
 				45807A8929EC284E00E0B999 /* SceneDelegate.swift in Sources */,
 			);

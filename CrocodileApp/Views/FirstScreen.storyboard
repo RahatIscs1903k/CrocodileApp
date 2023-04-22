@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,34 +14,34 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="q9V-3y-g2n">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Grass" translatesAutoresizingMaskIntoConstraints="NO" id="diC-lL-kdA">
-                                <rect key="frame" x="298" y="782" width="95" height="70"/>
+                                <rect key="frame" x="319" y="826" width="95" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="nAA-VZ-0HS"/>
                                     <constraint firstAttribute="width" constant="95" id="qZN-wX-39M"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crocodile" translatesAutoresizingMaskIntoConstraints="NO" id="euG-Kt-Muv">
-                                <rect key="frame" x="53" y="172" width="287" height="322"/>
+                                <rect key="frame" x="53" y="172" width="308" height="322"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="322" id="eg2-Ay-45W"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Grass" translatesAutoresizingMaskIntoConstraints="NO" id="z3P-PA-clB">
-                                <rect key="frame" x="0.0" y="782" width="95" height="70"/>
+                                <rect key="frame" x="0.0" y="826" width="95" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="7QL-3Q-gRB"/>
                                     <constraint firstAttribute="width" constant="95" id="pha-4L-eFI"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNM-Sm-Bor">
-                                <rect key="frame" x="82" y="652" width="229" height="63"/>
+                                <rect key="frame" x="82" y="652" width="250" height="63"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="ke3-3i-xVo"/>
                                 </constraints>
@@ -58,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fa-AE-mH0">
-                                <rect key="frame" x="66" y="529" width="261" height="83"/>
+                                <rect key="frame" x="70" y="529" width="274" height="83"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="83" id="scD-F8-sU4"/>
                                 </constraints>
