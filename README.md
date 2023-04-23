@@ -43,7 +43,7 @@ CrocodileApp включает в себя следующие возможнос�
 * Евгения Максимова - [onaxiz](https://github.com/onaxiz)
 * Рахат Хакимов - [RahatIscs1903k](https://github.com/RahatIscs1903k)
 * Александр Слыховский - [Aleksandr-Slykhovskiy](https://github.com/Aleksandr-Slykhovskiy)
-* Андрей
+* Андрей Овсянников - [andryovsianikov](https://github.com/andryovsianikov)
 
 ## Лицензия
 
