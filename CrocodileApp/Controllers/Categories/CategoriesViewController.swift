@@ -42,15 +42,17 @@ class CategoriesViewController: UIViewController {
         
         let fourthCategoryCard = CardWithRoundImage(circle: categoriesCard4CustomView, emoji: categoriesCard4EmogiLabel, cardName: categoriesCard4TeamNameLabel, card: categoriesCard4View)
         
-        let firscCategory = Categories().chooseRandomCatgoryCard()
-        var secondCategory = Categories().chooseRandomCatgoryCard()
-        let thirdCategory = Categories().chooseRandomCatgoryCard()
-        let fourthCategory = Categories().chooseRandomCatgoryCard()
+        let firscCategory = Categories().catigories[0]
+        var secondCategory = Categories().catigories[1]
+        let thirdCategory = Categories().catigories[2]
+        let fourthCategory = Categories().catigories[3]
         
 
         
         firstCategoryCard.drowCard(context: firscCategory)
         secondCategoryCard.drowCard(context: secondCategory)
+        thirdCategoryCard.drowCard(context: thirdCategory)
+        fourthCategoryCard.drowCard(context: fourthCategory)
     
     }
 }
