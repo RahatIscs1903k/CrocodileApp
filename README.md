@@ -2,6 +2,8 @@
 
 CrocodileApp - это веб-приложение для игры в "Крокодила". Оно было создано как проект для курса по iOS разработке приложений.
 
+![Пример работы CrocodileApp](https://github.com/RahatIscs1903k/CrocodileApp/blob/develop/Simulator%20Screen%20Recording%20-%20iPhone%2011%20-%202023-04-23%20at%2014.32.47.gif)
+
 ## Установка
 
 1. Клонируйте репозиторий на свой компьютер.
