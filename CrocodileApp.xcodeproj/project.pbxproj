@@ -23,6 +23,7 @@
 		A24090EE29F4278500AEF149 /* GameResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24090ED29F4278500AEF149 /* GameResultViewController.swift */; };
 		A24090F229F4367400AEF149 /* CategoriesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24090F129F4367400AEF149 /* CategoriesViewController.storyboard */; };
 		A24090F429F436A300AEF149 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24090F329F436A300AEF149 /* CategoriesViewController.swift */; };
+		A2519C8329F5384B00F658A6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2519C8229F5384B00F658A6 /* GameViewController.swift */; };
 		A256088829F17DEA006E5ACB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256088729F17DEA006E5ACB /* CustomView.swift */; };
 		A27EB85429F46FF90092920E /* ABeeZee-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A27EB85329F46FF90092920E /* ABeeZee-Italic.ttf */; };
 		D703F2FF29F32E4C00A29375 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D703F2FE29F32E4C00A29375 /* Categories.swift */; };
@@ -52,6 +53,7 @@
 		A24090ED29F4278500AEF149 /* GameResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultViewController.swift; sourceTree = "<group>"; };
 		A24090F129F4367400AEF149 /* CategoriesViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CategoriesViewController.storyboard; sourceTree = "<group>"; };
 		A24090F329F436A300AEF149 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		A2519C8229F5384B00F658A6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A256088729F17DEA006E5ACB /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		A27EB85329F46FF90092920E /* ABeeZee-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ABeeZee-Italic.ttf"; sourceTree = "<group>"; };
 		D703F2FE29F32E4C00A29375 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			children = (
 				D703F2FE29F32E4C00A29375 /* Categories.swift */,
 				A24090F329F436A300AEF149 /* CategoriesViewController.swift */,
+				A2519C8229F5384B00F658A6 /* GameViewController.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				EB4E699C29F2FB5D00FCF233 /* Teams.swift in Sources */,
 				A24090F429F436A300AEF149 /* CategoriesViewController.swift in Sources */,
 				A24090EE29F4278500AEF149 /* GameResultViewController.swift in Sources */,
+				A2519C8329F5384B00F658A6 /* GameViewController.swift in Sources */,
 				A256088829F17DEA006E5ACB /* CustomView.swift in Sources */,
 				A22C3DF229F0AAD100046192 /* TeamViewController.swift in Sources */,
 				A24090EC29F4277B00AEF149 /* WrongViewController.swift in Sources */,
