@@ -45,7 +45,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="tFI-3I-pZ6">
                                 <rect key="frame" x="31.5" y="157" width="351" height="459"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vy0-hl-9wT" userLabel="Team Card1">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vy0-hl-9wT" userLabel="Team Card1" customClass="CustomView" customModule="CrocodileApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="351" height="96"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Животные" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yy-UM-n0h" userLabel="Team Name1">
@@ -88,8 +88,13 @@
                                             <constraint firstAttribute="height" constant="96" id="ZzC-C0-OiN"/>
                                             <constraint firstItem="5yy-UM-n0h" firstAttribute="centerY" secondItem="vy0-hl-9wT" secondAttribute="centerY" id="qLm-j9-ifV"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0cQ-yL-n5I">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0cQ-yL-n5I" customClass="CustomView" customModule="CrocodileApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="121" width="351" height="96"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Личности" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xc9-Et-eas">
@@ -132,8 +137,13 @@
                                             <constraint firstItem="1mn-c9-DJY" firstAttribute="leading" secondItem="0cQ-yL-n5I" secondAttribute="leading" constant="17" id="hCX-ak-6wU"/>
                                             <constraint firstItem="1mn-c9-DJY" firstAttribute="centerY" secondItem="0cQ-yL-n5I" secondAttribute="centerY" id="hea-m7-xcq"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bSc-bh-KM7">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bSc-bh-KM7" customClass="CustomView" customModule="CrocodileApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="242" width="351" height="96"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Страны" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etk-zZ-Kt5">
@@ -176,8 +186,13 @@
                                             <constraint firstAttribute="width" constant="351" id="pIp-3B-Fua"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="etk-zZ-Kt5" secondAttribute="trailing" constant="20" symbolic="YES" id="tTf-O4-9eB"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qj-Ql-Xdt">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qj-Ql-Xdt" customClass="CustomView" customModule="CrocodileApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="363" width="351" height="96"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Еда" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6g-Tg-l2g">
@@ -220,6 +235,11 @@
                                             <constraint firstItem="qzv-rS-tgi" firstAttribute="leading" secondItem="3qj-Ql-Xdt" secondAttribute="leading" constant="17" id="s5T-IB-qEz"/>
                                             <constraint firstItem="g6g-Tg-l2g" firstAttribute="leading" secondItem="qzv-rS-tgi" secondAttribute="trailing" constant="56" id="uMe-uX-twQ"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
                                 <constraints>
