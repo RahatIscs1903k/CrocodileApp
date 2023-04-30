@@ -10,7 +10,7 @@ CrocodileApp это iOS-приложение, которое поможет ва
 2. Xcode 13.0 или выше.
 
 ## Установка
-## macOS
+### macOS
 Чтобы установить Crocodile App на macOS, выполните следующие шаги:
 
 1. Скачайте репозиторий на свой компьютер с помощью команды git clone https://github.com/RahatIscs1903k/CrocodileApp.git
@@ -18,7 +18,7 @@ CrocodileApp это iOS-приложение, которое поможет ва
 3. Выберите устройство для запуска приложения.
 4. Нажмите кнопку "Run" в Xcode для запуска приложения.
 
-## iOS
+### iOS
 Чтобы установить Crocodile App на устройство с iOS, выполните следующие шаги:
 
 Скачайте репозиторий на свой компьютер с помощью команды git clone https://github.com/RahatIscs1903k/CrocodileApp.git
